@@ -1,8 +1,10 @@
 import "jest"
-import * as library from "./index"
+import { getMcc } from "./index"
 
 describe("library", () => {
-	it("a", () => {
-		expect(library.a).toEqual(42)
+	it("get all mcc", () => {
+		const mccs = getMcc(4, 5)
+		console.log(mccs.length)
+		console.log(JSON.stringify(mccs, null, 2))
 	})
 })
