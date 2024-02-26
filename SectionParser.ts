@@ -9,24 +9,23 @@ export class SectionParser {
 	}
 
 	parseTccDescCategory() {
-		const match = this.section.match(
-			/\nTCC (?<tcc>(.|\n)+)\nMCC Description (?<description>(.|\n)+)\nMCC Category (?<category>(.|\n)+)\nAB Programs/
-		)
-		return match?.groups
-			? { tcc: match.groups.tcc, description: match.groups.description, category: match.groups.category }
-			: undefined
+		const tccMatch = this.section.match(/\nTCC (?<tcc>(.|\n)+)\nMCC Description/)
+		const descMatch = this.section.match(/MCC Description (?<description>(.|\n)+)\nMCC Category/)
+		const categoryMatch = this.section.match(/MCC Category (?<category>(.|\n)+)\nAB Programs/)
+		return {
+			tcc: tccMatch?.groups?.tcc,
+			description: descMatch?.groups?.description,
+			category: categoryMatch?.groups?.category,
+		}
 	}
 
 	parseAbPrograms() {
-		const match = this.section.match(
-			/AB Programs Global: (?<global>(.|,| |\n)+)\nCountry-specific: (?<country>(.|,| |\n)+)$/ //
-		)
-		return match?.groups
-			? {
-					global: match.groups.global.replaceAll("\n", "").replaceAll(" ", "").split(","),
-					countrySpecific: match.groups.country.replaceAll("\n", "").replaceAll(" ", "").split(","),
-			  }
-			: undefined
+		const matchGlobal = this.section.match(/AB Programs Global: (?<global>(\w+,? ?\n?)+)(\nCountry|$)/)
+		const matchCountry = this.section.match(/\nCountry-specific: (?<country>(\w+,?( |\n)?)+)$/)
+		return {
+			global: matchGlobal?.groups?.global.replaceAll("\n", "").replaceAll(" ", "").split(","),
+			countrySpecific: matchCountry?.groups?.country.replaceAll("\n", "").replaceAll(" ", "").split(","),
+		}
 	}
 
 	parse(): Partial<Mcc> {

@@ -5,7 +5,7 @@ export interface Mcc {
 	description: string
 	category: string
 	abPrograms: {
-		global: string[]
-		countrySpecific: string[]
+		global?: string[]
+		countrySpecific?: string[]
 	}
 }

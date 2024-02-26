@@ -14,14 +14,12 @@ export class BusinessMccCodeChapter {
 		return this
 	}
 	clearHeaderAndFooters() {
-		this.source = this.source
-			.split(/Acceptor business codes \(MCCs\)\nMCC \d{4}: .+\n© \d{4} .+\n.+ • \d{1,2} \w+ \d{4} \d*\n/g)
-			.join("")
+		this.source = this.source.replaceAll(/[^\n]+\n[^\n]+\n©[^\n]+\n[^\n]+\n/g, "")
 		return this
 	}
 
 	get(): string {
-		this.removeAllBeforeAcceptorExtended().removeAllAfterIndustrySpecificCodes().clearHeaderAndFooters()
+		this.removeAllAfterIndustrySpecificCodes().removeAllBeforeAcceptorExtended().clearHeaderAndFooters()
 		return this.source
 	}
 }
