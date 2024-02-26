@@ -3,10 +3,9 @@ import { booklet } from "./QuickReferenceBooklet"
 export class BusinessMccCodeChapter {
 	source = booklet
 	removeAllBeforeAcceptorExtended() {
-		this.source = this.source
-			.split(/Acceptor business codes \(MCCs\): extended\n/g)
-			.slice(1)
-			.join("")
+		const lines = this.source.split("\n")
+		const index = lines.findIndex(line => line.match(/^Acceptor business codes \(MCCs\): extended$/))
+		this.source = lines.slice(index + 1).join("\n")
 		return this
 	}
 	removeAllAfterIndustrySpecificCodes() {
