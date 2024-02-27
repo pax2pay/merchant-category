@@ -25,7 +25,7 @@ export class RangeSectionParser {
 		] as [string, string[]]
 	}
 
-	parseAbGlobalPrograms(): MccRange["abPrograms"]["global"] | undefined {
+	parseAbGlobalPrograms(): MccRange["abPrograms"]["global"] {
 		const matchGlobal = this.section.match(/AB Programs Global: (?<global>(\w+,? ?\n?)+)(\nCountry|$)/)
 		console.log("globalMatchGroup", matchGlobal?.groups?.global)
 		const globalString = matchGlobal?.groups?.global
@@ -40,17 +40,27 @@ export class RangeSectionParser {
 		return result
 	}
 
-	// parseAbCountryPrograms(): Pick<MccRange["abPrograms"], "countrySpecific"> {
-	// 	const matchCountry = this.section.match(/\nCountry-specific: (?<country>(\w+,?( |\n)?)+)$/)
-	// 	return matchCountry?.groups?.country.replaceAll("\n", "").replaceAll(" ", "").split(",")
-	// }
+	parseAbCountryPrograms(): MccRange["abPrograms"]["countrySpecific"] {
+		const matchCountry = this.section.match(/\nCountry-specific: (?<country>[^$]+)/)
+		console.log("countryMatchGroup", matchCountry?.groups?.country)
+		const countryString = matchCountry?.groups?.country
+		const result: MccRange["abPrograms"]["countrySpecific"] = { mcc: {} }
+		console.log({ countryString })
+		if (countryString) {
+			const groups = groupLinesByCondition(countryString, line => line.includes(" for "), { includeFirst: true })
+			result.mcc = Object.fromEntries(groups[0].split(",").map((v): [string, string[]] => [v.trim(), []]))
+			result.mcc = { ...result.mcc, ...Object.fromEntries(groups.slice(1).map(g => this.parseAbSubGroup(g))) }
+			console.log("result.mcc", result.mcc)
+		}
+		return result
+	}
 
 	parse(): Partial<MccRange> {
 		const codeAndName = measureTime(this.parseCodeAndName, this)
 		const tccDescCategory = measureTime(parseTccDescCategory, this, this.section)
 		const global = measureTime(this.parseAbGlobalPrograms, this)
-		// const countrySpecific = measureTime(this.parseAbCountryPrograms, this) // takes super long
+		const countrySpecific = measureTime(this.parseAbCountryPrograms, this) // takes super long
 
-		return { ...codeAndName, ...tccDescCategory, abPrograms: { global /* countrySpecific */ } }
+		return { ...codeAndName, ...tccDescCategory, abPrograms: { global, countrySpecific } }
 	}
 }

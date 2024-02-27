@@ -1,5 +1,5 @@
 import { RangeSectionParser } from "./RangeSectionParser"
-import { SingleSectionParser } from "./SingleSectonParser"
+import { SingleSectionParser } from "./SingleSectionParser"
 
 export namespace SectionParser {
 	export function create(section: string) {

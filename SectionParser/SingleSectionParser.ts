@@ -15,7 +15,7 @@ export class SingleSectionParser {
 		return matchGlobal?.groups?.global.replaceAll("\n", "").replaceAll(" ", "").split(",")
 	}
 	parseAbCountryPrograms() {
-		const matchCountry = this.section.match(/\nCountry-specific: (?<country>(\w+,?( |\n)?)+)$/)
+		const matchCountry = this.section.match(/\nCountry-specific: (?<country>([^$])+)/)
 		return matchCountry?.groups?.country.replaceAll("\n", "").replaceAll(" ", "").split(",")
 	}
 
@@ -23,14 +23,14 @@ export class SingleSectionParser {
 		const codeAndName = measureTime(this.parseCodeAndName, this)
 		const tccDescCategory = measureTime(parseTccDescCategory, this, this.section)
 		const global = measureTime(this.parseAbGlobalPrograms, this)
-		// const countrySpecific = measureTime(this.parseAbCountryPrograms, this) // takes super long
+		const countrySpecific = measureTime(this.parseAbCountryPrograms, this) // takes super long
 
 		return {
 			...codeAndName,
 			...tccDescCategory,
 			abPrograms: {
 				global,
-				/* countrySpecific */
+				countrySpecific,
 			},
 		}
 	}
