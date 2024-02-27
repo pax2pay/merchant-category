@@ -1,6 +1,6 @@
 import { booklet } from "./QuickReferenceBooklet"
 
-export class BusinessMccCodeChapter {
+export class Chapter {
 	source = booklet
 	removeAllBeforeAcceptorExtended() {
 		const lines = this.source.split("\n")

@@ -21,7 +21,7 @@ export interface MccRange {
 	// 	countrySpecific?: { list: { values: string; forMcc?: string[] }[]; exception?: string }
 	// }
 	abPrograms: {
-		global?: { mcc: { [program: string]: string[] | undefined }; exception?: string }
-		countrySpecific?: { mcc: { [program: string]: string[] | undefined }; exception?: string }
+		global?: { mcc: { [program: string]: string[] }; exception?: string }
+		countrySpecific?: { mcc: { [program: string]: string[] }; exception?: string }
 	}
 }
