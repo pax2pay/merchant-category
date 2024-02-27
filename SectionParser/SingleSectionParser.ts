@@ -1,5 +1,4 @@
 import { Mcc } from "../Mcc"
-import { measureTime } from "../measureTime"
 import { parseTccDescCategory } from "./commonParse"
 
 export class SingleSectionParser {
@@ -28,10 +27,10 @@ export class SingleSectionParser {
 	}
 
 	parse(): Partial<Mcc> {
-		const codeAndName = measureTime(this.parseCodeAndName, this)
-		const tccDescCategory = measureTime(parseTccDescCategory, this, this.section)
-		const global = measureTime(this.parseAbGlobalPrograms, this)
-		const countrySpecific = measureTime(this.parseAbCountryPrograms, this) // takes super long
+		const codeAndName = this.parseCodeAndName()
+		const tccDescCategory = parseTccDescCategory(this.section)
+		const global = this.parseAbGlobalPrograms()
+		const countrySpecific = this.parseAbCountryPrograms()
 
 		return {
 			...codeAndName,

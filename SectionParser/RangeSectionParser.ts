@@ -1,5 +1,4 @@
 import { MccRange } from "../Mcc"
-import { measureTime } from "../measureTime"
 import { groupLinesByCondition } from "../utilities"
 import { parseTccDescCategory } from "./commonParse"
 
@@ -56,10 +55,10 @@ export class RangeSectionParser {
 	}
 
 	parse(): Partial<MccRange> {
-		const codeAndName = measureTime(this.parseCodeAndName, this)
-		const tccDescCategory = measureTime(parseTccDescCategory, this, this.section)
-		const global = measureTime(this.parseAbGlobalPrograms, this)
-		const countrySpecific = measureTime(this.parseAbCountryPrograms, this) // takes super long
+		const codeAndName = this.parseCodeAndName()
+		const tccDescCategory = parseTccDescCategory(this.section)
+		const global = this.parseAbGlobalPrograms()
+		const countrySpecific = this.parseAbCountryPrograms()
 
 		return { ...codeAndName, ...tccDescCategory, abPrograms: { global, countrySpecific } }
 	}
