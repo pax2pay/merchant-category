@@ -33,7 +33,7 @@ export class RangeSectionParser {
 		console.log({ globalString })
 		if (globalString) {
 			const groups = groupLinesByCondition(globalString, line => line.includes(" for "), { includeFirst: true })
-			result.mcc = Object.fromEntries(groups[0].split(",").map((v): [string, string[]] => [v.trim(), []]))
+			result.mcc = Object.fromEntries(groups[0].split(",").map((v): [string, "all"] => [v.trim(), "all"]))
 			result.mcc = { ...result.mcc, ...Object.fromEntries(groups.slice(1).map(g => this.parseAbSubGroup(g))) }
 			console.log("result.mcc", result.mcc)
 		}
@@ -48,7 +48,7 @@ export class RangeSectionParser {
 		console.log({ countryString })
 		if (countryString) {
 			const groups = groupLinesByCondition(countryString, line => line.includes(" for "), { includeFirst: true })
-			result.mcc = Object.fromEntries(groups[0].split(",").map((v): [string, string[]] => [v.trim(), []]))
+			result.mcc = Object.fromEntries(groups[0].split(",").map((v): [string, "all"] => [v.trim(), "all"]))
 			result.mcc = { ...result.mcc, ...Object.fromEntries(groups.slice(1).map(g => this.parseAbSubGroup(g))) }
 			console.log("result.mcc", result.mcc)
 		}
