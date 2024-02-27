@@ -1,4 +1,4 @@
-import { Mcc } from "../Mcc"
+import { Mcc } from "../../Mcc"
 import { parseTccDescCategory } from "./commonParse"
 
 export class SingleSectionParser {

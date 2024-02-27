@@ -1,4 +1,4 @@
-import { groupLinesByCondition } from "./utilities"
+import { groupLinesByCondition } from "../utilities"
 
 export function splitBySections(chapter: string) {
 	return groupLinesByCondition(

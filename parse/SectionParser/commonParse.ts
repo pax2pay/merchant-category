@@ -1,4 +1,4 @@
-import { Mcc } from "../Mcc"
+import { Mcc } from "../../Mcc"
 
 export function parseTccDescCategory(section: string): Partial<Pick<Mcc, "tcc" | "description" | "category">> {
 	const tccMatch = section.match(/\nTCC (?<tcc>(.|\n)+)\nMCC Description/)

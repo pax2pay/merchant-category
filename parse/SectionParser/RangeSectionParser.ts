@@ -1,5 +1,5 @@
-import { MccRange } from "../Mcc"
-import { groupLinesByCondition } from "../utilities"
+import { MccRange } from "../../Mcc"
+import { groupLinesByCondition } from "../../utilities"
 import { parseTccDescCategory } from "./commonParse"
 
 export class RangeSectionParser {
