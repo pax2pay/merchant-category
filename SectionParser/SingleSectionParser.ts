@@ -11,12 +11,12 @@ export class SingleSectionParser {
 	}
 
 	parseAbGlobalPrograms() {
-		const matchGlobal = this.section.match(/AB Programs Global: (?<global>(\w+,? ?\n?)+)(\nCountry|$)/)
-		return matchGlobal?.groups?.global.replaceAll("\n", "").replaceAll(" ", "").split(",")
+		const matchGlobal = this.section.match(/AB Programs Global: (?<global>([\w\-, .\n]+))\nCountry/)
+		return matchGlobal?.groups?.global.replaceAll("\n", "").replaceAll(" ", "").split(/[,.]/)
 	}
 	parseAbCountryPrograms() {
 		const matchCountry = this.section.match(/\nCountry-specific: (?<country>([^$])+)/)
-		return matchCountry?.groups?.country.replaceAll("\n", "").replaceAll(" ", "").split(",")
+		return matchCountry?.groups?.country.replaceAll("\n", "").replaceAll(" ", "").split(/[,.]/)
 	}
 
 	parse(): Partial<Mcc> {

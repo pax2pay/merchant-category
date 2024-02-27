@@ -19,7 +19,7 @@ export class RangeSectionParser {
 		return [
 			result?.groups?.value,
 			result?.groups?.mcc
-				.split(/,|and/g)
+				.split(/,|and| |\n/g)
 				?.map(m => m.trim())
 				.filter(m => m),
 		] as [string, string[]]
