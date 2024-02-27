@@ -4,7 +4,7 @@ import { parseTccDescCategory } from "./commonParse"
 export class SingleSectionParser {
 	constructor(public section: string) {}
 
-	parseCodeAndName(): Pick<Mcc, "code" | "name"> | undefined {
+	parseCodeAndName(): Pick<Mcc.Single, "code" | "name"> | undefined {
 		const match = this.section.match(/^MCC (?<code>\d{4}): (?<name>.+)\n/)
 		return match?.groups ? { code: match.groups.code, name: match.groups.name } : undefined
 	}
@@ -26,7 +26,7 @@ export class SingleSectionParser {
 			.filter(m => m)
 	}
 
-	parse(): Partial<Mcc> {
+	parse(): Partial<Mcc.Single> {
 		const codeAndName = this.parseCodeAndName()
 		const tccDescCategory = parseTccDescCategory(this.section)
 		const global = this.parseAbGlobalPrograms()
