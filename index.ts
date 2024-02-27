@@ -7,11 +7,11 @@ export { getChapter } from "./getChapter"
 import { splitBySections } from "./splitBySections"
 export { splitBySections } from "./splitBySections"
 
-export function getMcc(from: number, to: number): (Partial<Mcc> | Partial<MccRange>)[] {
+export function getMcc(from?: number | undefined, to?: number | undefined): (Partial<Mcc> | Partial<MccRange>)[] {
 	const chapter = getChapter()
 	const sections = splitBySections(chapter)
-	const mccArray = sections.slice(from, to).map((s, index) => {
-		console.log(`started parsing ${index} out of ${to - from}`)
+	const mccArray = sections.slice(from, to).map((s, index, arr) => {
+		console.log(`started parsing ${index} out of ${arr.length}`)
 		console.log(s)
 		return SectionParser.create(s).parse()
 	})
