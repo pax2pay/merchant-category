@@ -1,4 +1,14 @@
+export type Mcc = Mcc.Single | Mcc.Range
+
 export namespace Mcc {
+	export function match(mcc: Mcc, code: string): Single | undefined {
+		if (isSingle(mcc)) {
+			return matchSingle(mcc, code)
+		} else {
+			return matchRange(mcc, code)
+		}
+	}
+
 	export interface Single {
 		code: string // 4 digit code
 		name: string
@@ -12,6 +22,9 @@ export namespace Mcc {
 	}
 	export function isSingle(value: Single | Range): value is Single {
 		return typeof value.code == "string"
+	}
+	export function matchSingle(mcc: Single, code: string): Single | undefined {
+		return mcc.code == code ? mcc : undefined
 	}
 
 	export interface Range {
@@ -27,6 +40,33 @@ export namespace Mcc {
 	}
 	export function isRange(value: Single | Range): value is Range {
 		return typeof value.code == "object"
+	}
+	export function matchRange(mcc: Range, code: string): Single | undefined {
+		if (mcc.code.from <= code && code <= mcc.code.to) {
+			console.log(JSON.stringify(mcc, null, 2))
+			return {
+				code,
+				name: mcc.name,
+				tcc: mcc.tcc,
+				description: mcc.description,
+				category: mcc.category,
+				abPrograms: {
+					global: Object.entries(mcc.abPrograms.global?.mcc ?? {})
+						.filter(([_, mccCodes]) => mccCodes == "all" || mccCodes.includes(code))
+						.map(([program, _]) => program),
+					countrySpecific: Object.entries(mcc.abPrograms.countrySpecific?.mcc ?? {})
+						.filter(([program, mccCodes]) => {
+							program == "BR10" && console.log(program, mccCodes, code, mccCodes.includes(code))
+							return mccCodes == "all" || mccCodes.includes(code)
+						})
+						.map(([program, _]) => {
+							console.log(program)
+							return program
+						}),
+				},
+			}
+		}
+		return undefined
 	}
 
 	export function logIssues(mcc: Single | Range) {
@@ -48,7 +88,7 @@ export namespace Mcc {
 
 	export namespace Code {
 		export function is(value: any): value is `${number}${number}${number}${number}` {
-			return !!(typeof value == "string" && value.match(/^\d{4}$/))
+			return !!(typeof value == "string" && value.match(/^\d{4}$/)) || value == "all"
 		}
 		// export function logIssue() {}
 	}

@@ -24,13 +24,15 @@ export class RangeSectionParser {
 	}
 
 	parseAbGlobalPrograms(): Mcc.Range["abPrograms"]["global"] {
-		const matchGlobal = this.section.match(/AB Programs Global: (?<global>(\w+,? ?\n?)+)(\nCountry|$)/)
+		const matchGlobal = this.section.match(/AB Programs Global: (?<global>(\w+,? ?\n?)+)(\nCountry|\(|$)/)
 		const globalString = matchGlobal?.groups?.global
 		const result: Mcc.Range["abPrograms"]["global"] = { mcc: {} }
 		if (globalString) {
 			const groups = groupLinesByCondition(globalString, line => line.includes(" for "), { includeFirst: true })
-			result.mcc = Object.fromEntries(groups[0].split(",").map((v): [string, "all"] => [v.trim(), "all"]))
-			result.mcc = { ...result.mcc, ...Object.fromEntries(groups.slice(1).map(g => this.parseAbSubGroup(g))) }
+			result.mcc = {
+				...Object.fromEntries(groups[0].split(",").map((v): [string, "all"] => [v.trim(), "all"])),
+				...Object.fromEntries(groups.slice(1).map(g => this.parseAbSubGroup(g))),
+			}
 		}
 		return result
 	}
@@ -41,8 +43,10 @@ export class RangeSectionParser {
 		const result: Mcc.Range["abPrograms"]["countrySpecific"] = { mcc: {} }
 		if (countryString) {
 			const groups = groupLinesByCondition(countryString, line => line.includes(" for "), { includeFirst: true })
-			result.mcc = Object.fromEntries(groups[0].split(",").map((v): [string, "all"] => [v.trim(), "all"]))
-			result.mcc = { ...result.mcc, ...Object.fromEntries(groups.slice(1).map(g => this.parseAbSubGroup(g))) }
+			result.mcc = {
+				...Object.fromEntries(groups[0].split(",").map((v): [string, "all"] => [v.trim(), "all"])),
+				...Object.fromEntries(groups.slice(1).map(g => this.parseAbSubGroup(g))),
+			}
 		}
 		return result
 	}
