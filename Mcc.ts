@@ -93,6 +93,5 @@ export namespace Mcc {
 		export function is(value: any): value is `${number}${number}${number}${number}` {
 			return !!(typeof value == "string" && value.match(/^\d{4}$/)) || value == "all"
 		}
-		// export function logIssue() {}
 	}
 }
