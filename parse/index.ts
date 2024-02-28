@@ -16,6 +16,6 @@ export function getMcc(
 	const mccArray = sections.slice(from, to).map(s => {
 		return SectionParser.create(s).parse()
 	})
-	// mccArray.forEach(Mcc.logIssues)
+	mccArray.forEach(Mcc.logIssues)
 	return mccArray
 }

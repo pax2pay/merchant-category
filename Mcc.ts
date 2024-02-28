@@ -43,7 +43,6 @@ export namespace Mcc {
 	}
 	export function matchRange(mcc: Range, code: string): Single | undefined {
 		if (mcc.code.from <= code && code <= mcc.code.to) {
-			console.log(JSON.stringify(mcc, null, 2))
 			return {
 				code,
 				name: mcc.name,
@@ -55,14 +54,8 @@ export namespace Mcc {
 						.filter(([_, mccCodes]) => mccCodes == "all" || mccCodes.includes(code))
 						.map(([program, _]) => program),
 					countrySpecific: Object.entries(mcc.abPrograms.countrySpecific?.mcc ?? {})
-						.filter(([program, mccCodes]) => {
-							program == "BR10" && console.log(program, mccCodes, code, mccCodes.includes(code))
-							return mccCodes == "all" || mccCodes.includes(code)
-						})
-						.map(([program, _]) => {
-							console.log(program)
-							return program
-						}),
+						.filter(([_, mccCodes]) => mccCodes == "all" || mccCodes.includes(code))
+						.map(([program, _]) => program),
 				},
 			}
 		}
@@ -76,12 +69,22 @@ export namespace Mcc {
 			Code.is(mcc.code.from) || console.error(`code.from ${mcc.code.from} is not valid mcc on ${mcc.name}`)
 			Code.is(mcc.code.to) || console.error(`code.to ${mcc.code.to} is not valid mcc on ${mcc.name}`)
 			Object.entries(mcc.abPrograms.global?.mcc ?? {}).forEach(
-				([program, code]) =>
-					Code.is(code) || console.error(`global.mcc["${program}"] ${code} is not valid mcc on ${mcc.name}`)
+				([program, codes]) =>
+					codes == "all" ||
+					codes.forEach(
+						code =>
+							Code.is(code) ||
+							console.error(`countrySpecific.mcc["${program}"] ${code} is not valid mcc on ${mcc.name}`)
+					)
 			)
 			Object.entries(mcc.abPrograms.countrySpecific?.mcc ?? {}).forEach(
-				([program, code]) =>
-					Code.is(code) || console.error(`countrySpecific.mcc["${program}"] ${code} is not valid mcc on ${mcc.name}`)
+				([program, codes]) =>
+					codes == "all" ||
+					codes.forEach(
+						code =>
+							Code.is(code) ||
+							console.error(`countrySpecific.mcc["${program}"] ${code} is not valid mcc on ${mcc.name}`)
+					)
 			)
 		}
 	}
