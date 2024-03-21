@@ -1,6 +1,6 @@
-import { RangeSectionParser } from "./RangeSectionParser"
+import { Range } from "./Range"
 
-describe("RangeSectionParser", () => {
+describe("SectionParser.Range", () => {
 	it("parse", () => {
 		const section = `MCCs 3351 through 3500: Car Rental Agencies
 The description of each MCC includes the TCC(s) that are valid for that MCC. Only a valid
@@ -38,7 +38,7 @@ BR10 for MCCs 3352, 3353,
 3427, 3428, 3429, 3430, 3431,
 3432, 3433, 3434, 3435, 3436,
 3438, 3439, 3441`
-		const mcc = new RangeSectionParser(section).parse()
+		const mcc = new Range(section).parse()
 		expect(mcc).toEqual({
 			code: { from: "3351", to: "3500" },
 			name: "Car Rental Agencies",

@@ -1,6 +1,6 @@
-import { SingleSectionParser } from "./SingleSectionParser"
+import { Single } from "./Single"
 
-describe("SingleSectionParser", () => {
+describe("SectionParser.Single", () => {
 	it("", () => {
 		const section = `MCC 0780: Horticultural and Landscaping Services
 The description of each MCC includes the TCC(s) that are valid for that MCC. Only a valid
@@ -19,7 +19,7 @@ OT22, OT25, OT32
 Country-specific: BR07, BR10, CHLE, CHNA, COLL,
 IDN2, JA02, OTH8, OT33, OT34,
 OT36, OT39, OT40, OT41, UR10`
-		const mcc = new SingleSectionParser(section).parse()
+		const mcc = new Single(section).parse()
 		expect(mcc).toEqual({
 			code: "0780",
 			name: "Horticultural and Landscaping Services",

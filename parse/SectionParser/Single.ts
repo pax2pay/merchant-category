@@ -1,15 +1,13 @@
-import { Mcc } from "../../Mcc"
-import { parseTccDescCategory } from "./commonParse"
+import { Category } from "../../Category"
+import { parseTccDescriptionCategory as parseTccDescriptionCategory } from "./parseTccDescriptionCategory"
 
-export class SingleSectionParser {
-	constructor(public section: string) {}
-
-	parseCodeAndName(): Pick<Mcc.Single, "code" | "name"> | undefined {
+export class Single {
+	constructor(readonly section: string) {}
+	private parseCodeAndName(): Pick<Category.Single, "code" | "name"> | undefined {
 		const match = this.section.match(/^MCC (?<code>\d{4}): (?<name>.+)\n/)
 		return match?.groups ? { code: match.groups.code, name: match.groups.name } : undefined
 	}
-
-	parseAbGlobalPrograms() {
+	private parseAbGlobalPrograms() {
 		const matchGlobal = this.section.match(/AB Programs Global: (?<global>([\w\-, .\n]+))\nCountry/)
 		return matchGlobal?.groups?.global
 			.replaceAll("\n", "")
@@ -17,7 +15,7 @@ export class SingleSectionParser {
 			.split(/[,.]/)
 			.filter(m => m)
 	}
-	parseAbCountryPrograms() {
+	private parseAbCountryPrograms() {
 		const matchCountry = this.section.match(/\nCountry-specific: (?<country>([^$])+)/)
 		return matchCountry?.groups?.country
 			.replaceAll("\n", "")
@@ -25,20 +23,19 @@ export class SingleSectionParser {
 			.split(/[,.]/)
 			.filter(m => m)
 	}
-
-	parse(): Partial<Mcc.Single> {
+	parse(): Category.Single | undefined {
 		const codeAndName = this.parseCodeAndName()
-		const tccDescCategory = parseTccDescCategory(this.section)
+		const tccDescriptionCategory = parseTccDescriptionCategory(this.section)
 		const global = this.parseAbGlobalPrograms()
 		const countrySpecific = this.parseAbCountryPrograms()
-
-		return {
+		const result = {
 			...codeAndName,
-			...tccDescCategory,
+			...tccDescriptionCategory,
 			abPrograms: {
 				global,
 				countrySpecific,
 			},
 		}
+		return Category.Single.is(result) ? result : undefined
 	}
 }
