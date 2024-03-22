@@ -1,0 +1,24 @@
+{
+  "code": "7230",
+  "name": "Barber and Beauty Shops",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that provide personal hair care services such as hair\\ncutting, hair styling, hair coloring, and hair extensions. Barber and\\nbeauty shops may also perform manicures and pedicures and sell a\\nlimited selection of hair care products.",
+  "category": "Personal Service Providers",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR03",
+      "P001"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CAN4",
+      "CHLG",
+      "CHLM",
+      "COLL",
+      "TT01-TTO"
+    ]
+  }
+}

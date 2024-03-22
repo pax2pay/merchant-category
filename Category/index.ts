@@ -1,4 +1,5 @@
 import { isly } from "isly"
+import { categories } from "./categories"
 import { Code as CategoryCode } from "./Code"
 import { Range as CategoryRange } from "./Range"
 import { Single as CategorySingle } from "./Single"
@@ -6,7 +7,10 @@ import { Single as CategorySingle } from "./Single"
 export type Category = Category.Single | Category.Range
 
 export namespace Category {
-	export const type: isly.Type<Category> = isly.union(CategorySingle.type, CategoryRange.type)
+	export const type: isly.Type<Category> = isly.named(
+		"merchant.Category",
+		isly.union(CategorySingle.type, CategoryRange.type)
+	)
 	export const is = type.is
 	export const flaw = type.flaw
 
@@ -17,8 +21,15 @@ export namespace Category {
 	export type Range = CategoryRange
 	export const Range = CategoryRange
 
-	export function match(category: Category, code: string): Category.Single | undefined {
-		return Category.Single.is(category) ? Single.match(category, code) : Range.match(category, code)
+	export const all = categories as readonly Readonly<Category>[]
+
+	export function extract(category: Category, code: string): Category.Single | undefined {
+		return Category.Range.is(category) ? Range.extract(category, code) : category.code == code ? category : undefined
+	}
+	export function load(code: string): Category.Single | undefined {
+		let result: Category.Single | undefined
+		all.find(category => (result = Category.extract(category, code)))
+		return result
 	}
 	export function logIssues(category: Single | Range) {
 		if (Category.Single.is(category))

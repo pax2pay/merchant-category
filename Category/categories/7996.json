@@ -1,0 +1,49 @@
+{
+  "code": "7996",
+  "name": "Amusement Parks, Carnivals, Circuses, Fortune Tellers",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that operate amusement parks and carnivals offering\\nmechanical rides, snacks and food stands, games, animal exhibits,\\nand entertainment. Circuses, fortune tellers, astrologers, tarot card\\nreaders, and mystics also are included.",
+  "category": "Amusement and Entertainment",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CR03",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR03",
+      "BR08",
+      "CHLG",
+      "CHLM",
+      "CHNA",
+      "COLN",
+      "JA02",
+      "JPNF",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

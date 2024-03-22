@@ -1,0 +1,47 @@
+{
+  "code": "7278",
+  "name": "Buying/Shopping Clubs, Services",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that provide buying and shopping services to individuals\\nor businesses on a fee basis. This type of merchant does not directly\\nsell goods to the consumer, but rather chooses a selection of items\\nthat the consumer may be interested in purchasing, typically acting\\non behalf of the seller of the goods.",
+  "category": "Personal Service Providers",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR03",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLM",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

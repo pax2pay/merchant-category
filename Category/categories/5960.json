@@ -1,0 +1,25 @@
+{
+  "code": "5960",
+  "name": "Direct Marketing: Insurance Services",
+  "tcc": "T for non–face-to-face transactions.",
+  "description": "Merchants that sell insurance services via direct mail, billing\\nstatement stuffers, and magazine or television ads, all of which\\ninclude either a toll-free phone number or an address or Web site by\\nwhich prospective clients may respond. Insurance services offered\\nmay include all forms of life insurance, hospital indemnity insurance\\n(additional coverage usually paid directly to the consumer),\\naccidental death and dismemberment insurance, credit card\\ninsurance in which the outstanding balance is insured against the\\ncardholder’s death, disability or unemployment insurance, and\\nmedical insurance for travelers. Sales may be targeted to special\\ngroups such as veterans, retired persons, schoolteachers, or\\nmembers of certain organizations. The billing of the insurance\\npremiums typically occurs in periodic (monthly, quarterly, or annual)\\ninstallments, and continues until canceled by either the cardholder or\\nthe insurance company. Another common feature is a free trial\\nperiod of 60 or 90 days, with the billing of the first installment after\\nthe trial period has ended.\\nFor face-to-face insurance sales and underwriting services, use MCC\\n6300.",
+  "category": "Mail Order/Telephone Order Providers",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR02",
+      "EM01",
+      "INS1",
+      "M001",
+      "SI01"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR01",
+      "CHLG",
+      "COL5",
+      "JPNH",
+      "TT01-TTO"
+    ]
+  }
+}

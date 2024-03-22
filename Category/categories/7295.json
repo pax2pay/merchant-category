@@ -1,0 +1,12 @@
+{
+  "code": "7295",
+  "name": "Housekeeping Service (China)",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that provide housekeeping or intermediary service to\\nfamily. Housekeeping services usually include nanny, nurse, cook,\\ngardener, driver, guard, tutor service to a family.\\nFor merchants that provide employment services for employers or\\nthose seeking employment with permanent or temporary positions,\\nuse MCC 7361.\\nFor merchants funded by the government, provide care and help\\nservices specially for the elderly, five guarantees family, disabled\\npeople, disabled children, use MCC 9399.\\nBusiness Services merchants are typically engaged in trades and\\nbusiness support services, providing specialized goods and services\\nfor consumers and businesses.\\nAll Other Merchants/U.S. Post Exchange\\nThis TCC applies to those transactions taking place at a retail store\\nor U.S. Post Exchange.\\nAll Other Non–Face-to-Face Transactions\\nThis TCC applies to non–face-to-face transactions, including but not\\nlimited to recurring transactions, mail order/telephone order\\ntransactions, electronic and mobile commerce transactions, and\\ntransponder transactions. Recurring or preauthorized transactions\\nresult from a specific authorization given to the merchant where the\\ncardholder has agreed to periodic billings submitted by the\\nmerchant. Mail order/telephone order, electronic and mobile\\ncommerce, and transponder transactions result from a cardholder\\nauthorizing a sale to be charged to his or her account via a non–face-\\nto-face method.\\nCustomers must not use this MCC for cross-border transactions.",
+  "category": "Business Service",
+  "abPrograms": {
+    "countrySpecific": [
+      "CHNA"
+    ]
+  }
+}

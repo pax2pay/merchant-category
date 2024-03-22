@@ -1,0 +1,46 @@
+{
+  "code": "7012",
+  "name": "Timeshares",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Retailers that sell, lease, and rent timeshare real estate and arrange\\ntimeshare condominium exchanges.",
+  "category": "Service Providers",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CR03",
+      "GW01",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLA",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "UR06"
+    ]
+  }
+}

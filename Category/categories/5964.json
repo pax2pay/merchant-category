@@ -1,0 +1,23 @@
+{
+  "code": "5964",
+  "name": "Direct Marketing: Catalog Merchants",
+  "tcc": "T for non–face-to-face transactions.",
+  "description": "Merchants that initiate direct contact with consumers and are often\\ndescribed as mail-order houses or as the mail-order industry. Such\\nmerchants offer their merchandise via catalogs, and accept\\nmerchandise orders exclusively via mail, phone, fax, electronic\\ncommerce, or other non–face-to-face methods. A paper catalog is a\\nmulti-page document that is sent (mailed, faxed, or otherwise\\ndelivered) directly to a consumer. An electronic catalog displays\\nmerchandise via cable TV or as videotext on an Internet site.\\nCatalogs display and describe merchandise and include a mail-order\\nform, phone number, or Internet site address for placing orders.\\nFlyers and brochures are not considered catalogs.\\nA manufacturer with a pricing catalog is not considered a direct\\nmarketing catalog merchant.",
+  "category": "Mail Order/Telephone Order Providers",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR02",
+      "M001",
+      "M003"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "COL5",
+      "CHLG",
+      "TT01-TTO"
+    ]
+  }
+}

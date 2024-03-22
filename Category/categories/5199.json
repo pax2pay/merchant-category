@@ -1,0 +1,50 @@
+{
+  "code": "5199",
+  "name": "Nondurable Goods: not elsewhere classified",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Wholesale distributors of nondurable goods not elsewhere classified.\\nThe product line of such merchants may include food products, art\\nand craft goods, clothes hangers, foam rubber, ice, crude rubber,\\nsponges, textile bags, burlap, canvas products, baskets, gifts and\\nnovelties, leather and cut stock, and other leather goods except\\nfootwear.\\nFor wholesalers that primarily sell leather footwear, use MCC 5139.\\nFor retailers that sell art and craft supplies, use MCC 5970; for\\nsellers of gifts and novelties, use MCC 5947.",
+  "category": "Wholesale Distributors and Manufacturers",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR04",
+      "K001",
+      "K002",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLN",
+      "JA02",
+      "JPNG",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

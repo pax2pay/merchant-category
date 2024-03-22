@@ -1,5 +1,5 @@
 import { isly } from "isly"
-import * as merchant from "../index"
+import { merchant } from "../index"
 
 describe("Category.Range", () => {
 	it("", () => expect(isly.string(/^\d{4}$/).is("1234")).toEqual(true))

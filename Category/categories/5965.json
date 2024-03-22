@@ -1,0 +1,23 @@
+{
+  "code": "5965",
+  "name": "Direct Marketing: Combination Catalog and Retail Merchants",
+  "tcc": "T for non-face-to-face transactions.",
+  "description": "Catalog merchants that also operate one or more retail outlets. This\\nMCC is used only for transactions occurring via mail order, phone\\norder, electronic commerce, or other non–face-to-face methods, even\\nif the merchandise is delivered to a store for pick-up.\\nFace-to-face sales, including those in which the order is placed at a\\ncatalog desk or elsewhere in a store in response to a catalog or other\\ndirect response communication are excluded from this MCC.\\nAll retail sales must be processed under an appropriate retail MCC.",
+  "category": "Mail Order/Telephone Order Providers",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR02",
+      "M001",
+      "M003"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "COL5",
+      "TT01-TTO"
+    ]
+  }
+}

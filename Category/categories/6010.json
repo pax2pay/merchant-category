@@ -1,0 +1,17 @@
+{
+  "code": "6010",
+  "name": "Manual Cash Disbursements: Customer Financial Institution",
+  "tcc": "C",
+  "description": "Used only to identify face-to-face transactions in which a cardholder\\nuses a Mastercard card at a Mastercard customer financial\\ninstitution to obtain a manual (“over-the-counter”) cash\\ndisbursement, to open or fund a deposit account, or to purchase\\ntravelers cheques, foreign currency, money orders, precious metals, or\\nsavings bonds.\\nFor cash disbursement transactions occurring at automated teller\\nmachines (ATMs), use MCC 6011.\\nFor sales of foreign currency, money orders, travelers cheques, and\\nother quasi-cash products at locations other than Mastercard\\ncustomer financial institution locations, use MCC 6051.",
+  "category": "Service Providers",
+  "abPrograms": {
+    "global": [
+      "C001"
+    ],
+    "countrySpecific": [
+      "BR07",
+      "BR10",
+      "CHLG"
+    ]
+  }
+}

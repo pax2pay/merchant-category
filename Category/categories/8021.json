@@ -1,0 +1,51 @@
+{
+  "code": "8021",
+  "name": "Dentists, Orthodontists",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Licensed physicians that practice general or specialized dentistry,\\nsuch as dental surgery.",
+  "category": "Professional Services and Membership Organizations",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR04",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "ARG2",
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLH",
+      "CHNA",
+      "COLJ",
+      "JA02",
+      "JPN1",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "PA02",
+      "PR06",
+      "TT01-TTO",
+      "UR09"
+    ]
+  }
+}

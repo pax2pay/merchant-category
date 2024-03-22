@@ -1,0 +1,50 @@
+{
+  "code": "7999",
+  "name": "Recreation Services: not elsewhere classified",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that provide a wide variety of recreation and\\nentertainment services that are not described by another, more\\nspecific MCC. Typically, these merchants provide services that require\\nactive physical participation such as swimming, playing miniature\\ngolf, snow skiing, miniature car racing, ice skating, rock climbing,\\nskate boarding and horseback riding. These merchants may also rent\\nbicycles, aircraft, motorcycles, go-carts, and other sporting\\nequipment. As a general rule, these merchants are not clubs and do\\nnot require membership.\\nFor private sports and recreation clubs requiring membership, use\\nMCC 7997.\\nFor boat rentals, use MCC 4457.\\nFor public golf courses, use MCC 7992.",
+  "category": "Amusement and Entertainment",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CR03",
+      "GW01",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLE",
+      "CHLM",
+      "CHNA",
+      "COLN",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "SPN3",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

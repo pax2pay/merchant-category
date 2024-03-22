@@ -1,0 +1,47 @@
+{
+  "code": "4214",
+  "name": "Motor Freight Carriers, Trucking: Local/Long Distance, Moving and Storage",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Local or long distance trucking services that may or may not also\\nprovide storage services.\\nFor household goods warehousing and storage without trucking\\nservices, use MCC 4225.\\nFor couriers of parcels, goods, and packages, use MCC 4215.",
+  "category": "Transportation",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CF01",
+      "CR03",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLE",
+      "JA02",
+      "JPNG",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT39",
+      "OT40",
+      "OT41",
+      "SPN3",
+      "UR06"
+    ]
+  }
+}

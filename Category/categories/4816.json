@@ -1,0 +1,53 @@
+{
+  "code": "4816",
+  "name": "Computer Network/Information Services",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Providers of computer network, information services, and other\\nonline services such as cyberlocker, electronic bulletin board, e-mail,\\nWeb site hosting services, or Internet access.\\nFor merchants that offer products or services via the Internet, use\\nthe MCC that best describes the product or service being offered.\\nFor merchants that provide audiotext (for example, psychic hotlines)\\nor videotext (for example, adult chat Internet sites) services, use\\nMCC 5967.\\nFor providers of computer programming and data processing\\nservices, use MCC 7372.",
+  "category": "Utilities",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CR02",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "AUS1",
+      "BEL1",
+      "BR01",
+      "CHLG",
+      "CHLM",
+      "CHNA",
+      "COLN",
+      "HK02",
+      "JA02",
+      "JPN9",
+      "JPNH",
+      "NZG1",
+      "NZU1",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "PR04",
+      "SPN3",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

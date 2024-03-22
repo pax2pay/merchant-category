@@ -1,0 +1,50 @@
+{
+  "code": "4900",
+  "name": "Utilities: Electric, Gas, Heating Oil, Sanitary, Water",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "The ongoing generation, transmission, or distribution of electricity,\\ngas (natural or propane), home heating oil, water system supply\\nservices, or collection and disposal of refuse.\\nFor merchants providing telecommunication services, use MCC 4814.",
+  "category": "Utilities",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CR02",
+      "EM01",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "SI01",
+      "T002",
+      "UT01"
+    ],
+    "countrySpecific": [
+      "ARG1",
+      "AUS1",
+      "BR01",
+      "CHL3",
+      "CHN8",
+      "CHNA",
+      "COLI",
+      "EM03",
+      "EM06",
+      "HK02",
+      "JA01",
+      "JPN1",
+      "JPNH",
+      "MAC2",
+      "NZG1",
+      "NZU1",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "PR04",
+      "SPN3",
+      "TT01-TTO",
+      "UR09"
+    ]
+  }
+}

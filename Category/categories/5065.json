@@ -1,0 +1,49 @@
+{
+  "code": "5065",
+  "name": "Electrical Parts and Equipment",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Wholesale distributors of electrical parts and communications\\nequipment. Products for sale may include electronic coils, capacitors,\\nelectronic condensers, diodes, semiconductor devices, public address\\nequipment, and electric signs.\\nFor retailers that sell electronic equipment, use MCC 5732.\\nFor retailers that sell telecommunications equipment such as\\ntelephones and pagers, use MCC 4812.",
+  "category": "Wholesale Distributors and Manufacturers",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR04",
+      "K001",
+      "K002",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLN",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

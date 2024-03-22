@@ -1,0 +1,47 @@
+{
+  "code": "7277",
+  "name": "Debt, Marriage, Personal: Counseling Service",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that provide a variety of counseling services such as debt\\nand financial counseling, marriage counseling, family counseling,\\nalcohol and drug abuse counseling, and other personal counseling.\\nFor merchants that provide legal services, use MCC 8111.\\nFor merchants primarily engaged in collecting debts in default owed\\nto others or that were originally owed to others, use MCC 7322.",
+  "category": "Personal Service Providers",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR03",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLL",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

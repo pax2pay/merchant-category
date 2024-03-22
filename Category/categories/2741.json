@@ -1,0 +1,47 @@
+{
+  "code": "2741",
+  "name": "Miscellaneous Publishing and Printing",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants engaged in wholesale printing, publishing, or bookbinding.\\nExamples of materials produced by such merchants include books,\\nperiodicals, magazines, maps and atlases, business newsletters,\\ndirectories, sheet music, paper patterns, technical manuals and\\npapers, telephone directories, and yearbooks.\\nFor wholesale distributors of books, pamphlets, and educational\\nmaterials, use MCC 5192.",
+  "category": "Wholesale Distributors and Manufacturers",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR03",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLM",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

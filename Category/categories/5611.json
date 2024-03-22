@@ -1,0 +1,32 @@
+{
+  "code": "5611",
+  "name": "Men’s and Boys’ Clothing and Accessories Stores",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that sell men’s and boys’ ready-to-wear clothing and\\naccessories, including tie and hat shops.",
+  "category": "Clothing Stores",
+  "abPrograms": {
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CAN2",
+      "CAN6",
+      "CHLG",
+      "CHLM",
+      "CHNA",
+      "COLN",
+      "JA02",
+      "OTH8",
+      "OT21",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "SPN3",
+      "TT01-TTO",
+      "UR03"
+    ]
+  }
+}

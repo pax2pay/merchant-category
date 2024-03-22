@@ -1,0 +1,50 @@
+{
+  "code": "7994",
+  "name": "Video Game Arcades/Establishments",
+  "tcc": "P for Gaming Payment transactions.\\nR for face-to-face transactions.\\nT for non–face-to-face transactions, including Internet-based games\\n(other than gambling).",
+  "description": "Merchants that operate indoor playgrounds, interactive games and\\namusement machines, such as jukeboxes, video games, pinball\\nmachines, paintball, and laser tag games, mechanical games, and\\ninstant photograph booths.\\nAn acquirer may use this MCC to identify a U.S. region skill games\\nmerchant or a skill games merchant located outside the U.S. region\\nthat accepts payment from U.S. region cardholders for participation\\nin a skill game conducted by such merchant. Such merchant must be\\nproperly registered with Mastercard as set forth in section 9.4.5 of\\nthe Security Rules and Procedures manual. If such merchant's\\nactivities are regulated as gambling in any non-U.S. jurisdiction, then\\nthe merchant must be identified with MCC 7995.\\nFor merchants that sell amusement equipment, use MCC 7993.\\nFor merchants that operate games involving wagering, use MCC\\n7995.",
+  "category": "Amusement and Entertainment",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CR03",
+      "EM04",
+      "GAM2",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLN",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "SPN3",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

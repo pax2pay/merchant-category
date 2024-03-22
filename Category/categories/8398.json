@@ -1,0 +1,33 @@
+{
+  "code": "8398",
+  "name": "Organizations, Charitable and Social Service",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Charitable (non-political) organizations that solicit contributions,\\nsocial service organizations that provide social welfare services,\\nadvocacy groups, community organizations, and health agencies.\\nUse a TCC of T for fundraising performed through non–face-to-face\\nmethods such as phone orders.",
+  "category": "Professional Services and Membership Organizations",
+  "abPrograms": {
+    "global": [
+      "CH01",
+      "CCR3",
+      "CR03",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH5"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR01",
+      "CAN5",
+      "CAN6",
+      "CH02",
+      "CHL2",
+      "CHNA",
+      "CHRT",
+      "CM01",
+      "JA01",
+      "JPN1",
+      "PR05",
+      "TT01-TTO"
+    ]
+  }
+}

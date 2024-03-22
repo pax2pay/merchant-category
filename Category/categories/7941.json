@@ -1,0 +1,50 @@
+{
+  "code": "7941",
+  "name": "Athletic Fields, Commercial Sports, Professional Sports Clubs, Sports",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that operate and promote semiprofessional and\\nprofessional athletic clubs (such as baseball, basketball, football,\\nhockey, and soccer), promote amateur and professional athletic\\nevents, and manage individual athletes. Sports arenas and stadiums\\nare also included.",
+  "category": "Amusement and Entertainment",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CR03",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "ARG2",
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLN",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "PA02",
+      "SPN3",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

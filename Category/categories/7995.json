@@ -1,0 +1,27 @@
+{
+  "code": "7995",
+  "name": "Gambling Transactions",
+  "tcc": "P for Gaming Payment transactions.\\nU for purchases of gambling chips or other value usable for\\ngambling.",
+  "description": "Any transaction, other than an ATM transaction, involving the placing\\nof a wager, the purchase of a lottery ticket, spread betting, in-flight\\ncommerce gaming, or the purchase of chips or other value usable for\\ngambling in conjunction with gambling activities provided by\\nwagering or betting establishments such as casinos, race tracks, card\\nparlors, airlines, and the like.\\nGambling transaction processing requirements are set forth in\\nsection 5.1.2.2 of the Mastercard Rules manual.\\nAny fee charged and included in the total transaction amount must\\nbe clearly disclosed to the cardholder before completing the\\ntransaction. Such a fee must not be charged for in-flight commerce\\ngaming transactions.\\nBefore acquiring transactions reflecting non-face-to-face gambling,\\nan acquirer must first register the merchant with Mastercard as\\ndescribed in section 9.2 of the Security Rules and Procedures manual.\\nFor other types of purchases associated with the establishment,\\nsuch as food, lodging, or passage, use the MCC that best describes\\nthat transaction.\\nFor information about Gaming Payment Transactions, refer to\\nChapter 6 in the Transaction Processing Rules manual.",
+  "category": "Amusement and Entertainment",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CR05",
+      "U001"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLE",
+      "CHLM",
+      "COLM",
+      "GAM1",
+      "JA02",
+      "SPN4",
+      "TT01-TTO",
+      "U003"
+    ]
+  }
+}
