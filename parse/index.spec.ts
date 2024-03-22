@@ -1,11 +1,10 @@
 import "jest"
-import { getMcc } from "./index"
+import { parse } from "./index"
 
 describe("library", () => {
 	it("get all mcc", () => {
-		// const index = 2
-		const mccs = getMcc()
-		console.log(JSON.stringify(mccs, null, 2))
-		console.log(mccs.length)
+		const categories = parse()
+		console.log(JSON.stringify(categories, null, 2))
+		console.log(categories.length)
 	})
 })

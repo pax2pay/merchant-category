@@ -1,10 +1,15 @@
-import { Mcc } from "./Mcc"
+import { Category } from "./Category"
 
-export function search(mccArray: Mcc[], mccCode: string): Mcc | { error: string; code: string } {
-	for (const mcc of mccArray) {
-		const match = Mcc.match(mcc, mccCode)
-		if (match)
-			return match
-	}
-	return { error: "Not found", code: mccCode }
+export function search(
+	categories: Category[],
+	categoryCode: string
+): Category.Single | { error: string; code: string } {
+	let result: Category.Single | undefined
+	categories.find(category => (result = Category.match(category, categoryCode)))
+	return (
+		result ?? {
+			error: "Not found",
+			code: categoryCode,
+		}
+	)
 }

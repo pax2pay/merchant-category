@@ -1,21 +1,14 @@
-import { Mcc } from "../Mcc"
-export { Mcc } from "../Mcc"
-import { SectionParser } from "./SectionParser"
-export { SectionParser } from "./SectionParser"
+export { Category } from "../Category"
+import { Category } from "../Category"
 import { getChapter } from "./getChapter"
-export { getChapter } from "./getChapter"
+import { SectionParser } from "./SectionParser"
 import { splitBySections } from "./splitBySections"
-export { splitBySections } from "./splitBySections"
 
-export function getMcc(
-	from?: number | undefined,
-	to?: number | undefined
-): (Partial<Mcc.Single> | Partial<Mcc.Range>)[] {
-	const chapter = getChapter()
-	const sections = splitBySections(chapter)
-	const mccArray = sections.slice(from, to).map(s => {
-		return SectionParser.create(s).parse()
-	})
-	mccArray.forEach(Mcc.logIssues)
-	return mccArray
+export function parse(from?: number | undefined, to?: number | undefined): Category[] {
+	const result = splitBySections(getChapter())
+		.slice(from, to)
+		.map(s => SectionParser.create(s).parse())
+		.filter(Category.is)
+	result.forEach(Category.logIssues)
+	return result
 }

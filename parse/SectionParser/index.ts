@@ -1,10 +1,10 @@
-import { RangeSectionParser } from "./RangeSectionParser"
-import { SingleSectionParser } from "./SingleSectionParser"
+import { Range } from "./Range"
+import { Single } from "./Single"
+
+export type SectionParser = Single | Range
 
 export namespace SectionParser {
 	export function create(section: string) {
-		return section.split("\n")[0].includes("through")
-			? new RangeSectionParser(section)
-			: new SingleSectionParser(section)
+		return !section.split("\n")[0].includes("through") ? new Single(section) : new Range(section)
 	}
 }

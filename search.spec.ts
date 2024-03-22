@@ -1,11 +1,11 @@
-import { Mcc } from "./Mcc"
-import { getMcc } from "./parse"
+import { Category } from "./Category"
+import { parse } from "./parse"
 import { search } from "./search"
 
 describe("search", () => {
-	it("singe", () => {
-		const mccArray = getMcc() as Mcc[]
-		expect(search(mccArray, "7513")).toEqual({
+	it("single", () => {
+		const categories = parse() as Category[]
+		expect(search(categories, "7513")).toEqual({
 			code: "7513",
 			name: "Truck Rental",
 			tcc: "A",
@@ -20,8 +20,8 @@ hauling, and are rented on a do-it-yourself basis.`,
 		})
 	})
 	it("range", () => {
-		const mccArray = getMcc() as Mcc[]
-		expect(search(mccArray, "3003")).toEqual({
+		const categories = parse() as Category[]
+		expect(search(categories, "3003")).toEqual({
 			code: "3003",
 			name: "Airlines, Air Carriers",
 			tcc: "X",
@@ -34,7 +34,7 @@ Business Code (MCC): Transaction Category Codes section.`,
 				countrySpecific: ["BEL1", "CHLL", "TT01-TTO"],
 			},
 		})
-		expect(search(mccArray, "3386")).toEqual({
+		expect(search(categories, "3386")).toEqual({
 			code: "3386",
 			name: "Car Rental Agencies",
 			tcc: "A",

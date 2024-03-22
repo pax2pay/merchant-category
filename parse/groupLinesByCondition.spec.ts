@@ -1,6 +1,6 @@
-import { groupLinesByCondition } from "./index"
+import { groupLinesByCondition } from "./groupLinesByCondition"
 
-describe("utilities", () => {
+describe("parse", () => {
 	it("groupLinesByCondition", () => {
 		const sections = [
 			`BEL1, BR07, BR10, CHLG, COLN,

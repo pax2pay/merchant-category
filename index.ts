@@ -1,1 +1,1 @@
-export * as parse from "./parse"
+export { Category } from "./Category"
