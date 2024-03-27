@@ -1,0 +1,8 @@
+{
+  "code": "6538",
+  "name": "Funding Transactions for MoneySend",
+  "tcc": "R for face-to-face transactions.\\nT for non-face-to-face transactions.",
+  "description": "Identifies a Funding Transaction governed by the Standards set forth\\nin the Mastercard MoneySend and Funding Transactions Program\\nStandards manual.\\nMCC 6538 must not be used to identify a Funding Transaction\\nconducted for purposes of funding any of the activities described in\\nsection 9.1 of the Security Rules and Procedures (the appropriate\\nMCC for each such activity must be used)..",
+  "category": "Service Providers",
+  "abPrograms": {}
+}

@@ -1,0 +1,51 @@
+{
+  "code": "9223",
+  "name": "Bail and Bond Payments",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that post bail to the court system as security for the\\nappearance of the arraigned individual.",
+  "category": "Government Services",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR03",
+      "EM01",
+      "EM02",
+      "GVT1",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32",
+      "PS01"
+    ],
+    "countrySpecific": [
+      "ARG1",
+      "AUS1",
+      "BR02",
+      "CHLG",
+      "CHNA",
+      "COLM",
+      "EM03",
+      "JA02",
+      "NZG1",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "PR02",
+      "UR10"
+    ]
+  }
+}

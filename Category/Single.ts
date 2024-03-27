@@ -2,10 +2,10 @@ import { isly } from "isly"
 import { Base } from "./Base"
 
 export interface Single extends Base {
-	code: string // 4 digit code
-	abPrograms: {
-		global?: string[]
-		countrySpecific?: string[]
+	readonly code: string // 4 digit code
+	readonly abPrograms: {
+		readonly global?: readonly string[]
+		readonly countrySpecific?: readonly string[]
 	}
 }
 
@@ -19,7 +19,10 @@ export namespace Single {
 	})
 	export const is = type.is
 	export const flaw = type.flaw
-	export function match(category: Single, code: string): Single | undefined {
-		return category.code == code ? category : undefined
+	export function belongs(category: Single, program: string): Single[] {
+		return category.abPrograms?.global?.some(p => p == program) ||
+			category.abPrograms?.countrySpecific?.some(p => p == program)
+			? [category]
+			: []
 	}
 }

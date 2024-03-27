@@ -1,0 +1,46 @@
+{
+  "code": "4722",
+  "name": "Travel Agencies and Tour Operators",
+  "tcc": "X",
+  "description": "Travel agencies that primarily provide travel information and booking\\nservices. Such merchants act as agents on behalf of travelers in\\nbooking and ticketing air, land, or sea transportation or lodging\\naccommodations, including plane flights, bus tours, sea cruises, car\\nrentals, rail transportation, and lodging. Also includes tour operators\\nthat arrange and assemble tours for sale through a travel agent or\\ndirectly to the consumer. A traveler may also book such tour\\npackages and excursions through a hotel concierge or ticket office.\\nExamples include bus charters and tour bus operators.",
+  "category": "Transportation",
+  "abPrograms": {
+    "global": [
+      "CCR2",
+      "CR02",
+      "GW01",
+      "OTH1",
+      "OTH2",
+      "OTH5",
+      "OT11",
+      "OT12",
+      "OT15",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32",
+      "TA01",
+      "TE03",
+      "TE04"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLC",
+      "COLC",
+      "JA02",
+      "JPN6",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "SPN3",
+      "TT01-TTO",
+      "UR06"
+    ]
+  }
+}

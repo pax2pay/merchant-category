@@ -1,10 +1,10 @@
 import { isly } from "isly"
 
 export interface Base {
-	name: string
-	tcc: string
-	description: string
-	category: string
+	readonly name: string
+	readonly tcc: string
+	readonly description: string
+	readonly category: string
 }
 
 export namespace Base {

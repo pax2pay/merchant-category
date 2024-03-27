@@ -1,0 +1,29 @@
+{
+  "code": "4215",
+  "name": "Courier Services: Air and Ground, Freight Forwarders",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that deliver individually addressed letters, parcels and\\npackages (excluding Postal Services: Government Only: MCC 9402).\\nFor merchants that provide trucking delivery of freight, use MCC\\n4214.",
+  "category": "Transportation",
+  "abPrograms": {
+    "countrySpecific": [
+      "BEL1",
+      "BR03",
+      "BR08",
+      "CHLG",
+      "CHLM",
+      "CHNA",
+      "COLE",
+      "IDN2",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR06"
+    ]
+  }
+}

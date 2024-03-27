@@ -1,0 +1,49 @@
+{
+  "code": "5231",
+  "name": "Glass, Paint, Wallpaper Stores",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Retailers that sell glass, paint and painting supplies, wallpaper and\\nhanging supplies, and other wall covering materials.\\nFor wholesale distributors of painting supplies, use MCC 5198.",
+  "category": "Retail Stores",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR04",
+      "K001",
+      "K002",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLE",
+      "CHNA",
+      "COLN",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

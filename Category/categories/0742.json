@@ -1,0 +1,49 @@
+{
+  "code": "0742",
+  "name": "Veterinary Services",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Licensed practitioners primarily engaged in the practice of veterinary\\nmedicine, dentistry, or surgery for all types of animals; such as pets\\n(for example, dogs, cats, fish), livestock, and other farm animals (for\\nexample, cattle, horses, sheep, hogs, goats, poultry, bees), and exotic\\nanimals.",
+  "category": "Contracted Services",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR03",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32",
+      "OT39",
+      "OT40"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLL",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

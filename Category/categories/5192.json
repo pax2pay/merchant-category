@@ -1,0 +1,52 @@
+{
+  "code": "5192",
+  "name": "Books, Periodicals, and Newspapers",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Wholesale manufacturers and distributors of books, periodicals,\\nmagazines, journals, newspapers, pamphlets and educational\\nmaterials. Newspaper agencies are also included.\\nFor wholesale printers or publishers of books, periodicals, and\\nmagazines, use MCC 2741.\\nFor retailers that sell books, use MCC 5942.",
+  "category": "Wholesale Distributors and Manufacturers",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR04",
+      "K001",
+      "K002",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR01",
+      "CAN4",
+      "CHLG",
+      "CHNA",
+      "COLK",
+      "COLN",
+      "JA02",
+      "JPNH",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "SPN3",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

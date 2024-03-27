@@ -1,0 +1,50 @@
+{
+  "code": "4789",
+  "name": "Transportation Services: not elsewhere classified",
+  "tcc": "X",
+  "description": "Merchants that provide passenger transportation services not\\nelsewhere classified. Such services include transportation via horse-\\ndrawn cabs and carriages, bicycle-taxis, aerial tramways, airport\\nshuttle transportation services, or cable cars.\\n• For merchants providing ferry service, use MCC 4111.\\n• For merchants providing bus transportation, use MCC 4131.\\n• For merchants providing cruise lines, use MCC 4411.\\n• For merchants providing passenger railway service, use MCC\\n4112.\\n• For merchants providing taxi and limousine service, use MCC\\n4121.",
+  "category": "Transportation",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR03",
+      "CF01",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "AUS3",
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLE",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "SPN3",
+      "TT01-TTO",
+      "UR06"
+    ]
+  }
+}

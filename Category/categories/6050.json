@@ -1,0 +1,21 @@
+{
+  "code": "6050",
+  "name": "Quasi Cash: Customer Financial Institution",
+  "tcc": "U",
+  "description": "Identifies the purchase, with a Mastercard or Maestro card, of\\ntravelers cheques, foreign currency, money orders, precious metals, or\\nsavings bonds at a Mastercard customer financial institution\\nlocation. This MCC may also be used to identify transactions in which\\na customer accepts a Mastercard or Maestro card in direct payment\\nof an existing debt, such as a private label card or vehicle loan.\\nThis MCC may be used for non–face-to-face transactions, such as\\nthose facilitated through the Internet.\\nMCC 6050 must not be used to identify any sale other than as\\ndescribed, including, by way of example and not limitation; gambling\\ntransactions (MCC 7995, MCC 7801, or MCC 7802, as appropriate,\\nmust be used); videotext transactions (MCC 5967 must be used);\\nthe sale of any prescription drug (MCC 5122 or MCC 5912 must be\\nused); or the sale of any tobacco product (MCC 5993 must be used).\\nAny fee charged and included in the total transaction amount must\\nbe clearly disclosed to the cardholder before completing the\\ntransaction.\\nFor cash disbursements, use MCC 6010 for face-to-face\\ntransactions and MCC 6011 for transactions that occur at ATMs.",
+  "category": "Service Providers",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CR05",
+      "T002",
+      "U001"
+    ],
+    "countrySpecific": [
+      "BR07",
+      "BR10",
+      "CHLG",
+      "COLM"
+    ]
+  }
+}

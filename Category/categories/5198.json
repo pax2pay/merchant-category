@@ -1,0 +1,49 @@
+{
+  "code": "5198",
+  "name": "Paints, Varnishes, and Supplies",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Wholesale distributors of paints, varnishes, wallpaper, and supplies.\\nThe product line of such merchants may include colors and pigments,\\nenamels, lacquers, paint brushes, paint pans, sandpaper, drop cloths,\\nshellac, rollers, and sprayers.\\nFor retailers that sell these items, use MCC 5231.",
+  "category": "Wholesale Distributors and Manufacturers",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR04",
+      "K001",
+      "K002",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLN",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

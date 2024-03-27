@@ -3,11 +3,15 @@ import { Base } from "./Base"
 import { Single } from "./Single"
 
 export interface Range extends Base {
-	code: { from: string; to: string } // from through to (e.g. MCCs 3000 through 3350)
-	abPrograms: {
-		global?: { mcc: { [program: string]: string[] | "all" }; exception?: string }
-		countrySpecific?: { mcc: { [program: string]: string[] | "all" }; exception?: string }
-	}
+	readonly code: { readonly from: string; readonly to: string } // from through to (e.g. MCCs 3000 through 3350)
+	readonly abPrograms: Readonly<
+		Partial<
+			Record<
+				"global" | "countrySpecific",
+				{ mcc: { readonly [program: string]: readonly string[] | "all" }; readonly exception?: string }
+			>
+		>
+	>
 }
 export namespace Range {
 	export const type = Base.type.extend<Range>({
@@ -24,23 +28,34 @@ export namespace Range {
 	})
 	export const is = type.is
 	export const flaw = type.flaw
-	export function match(mcc: Range, code: string): Single | undefined {
-		return mcc.code.from <= code && code <= mcc.code.to
+	export function extract(category: Range, code: string): Single | undefined {
+		return category.code.from <= code && code <= category.code.to
 			? {
 					code,
-					name: mcc.name,
-					tcc: mcc.tcc,
-					description: mcc.description,
-					category: mcc.category,
+					name: category.name,
+					tcc: category.tcc,
+					description: category.description,
+					category: category.category,
 					abPrograms: {
-						global: Object.entries(mcc.abPrograms.global?.mcc ?? {})
+						global: Object.entries(category.abPrograms.global?.mcc ?? {})
 							.filter(([_, categories]) => categories == "all" || categories.includes(code))
 							.map(([program, _]) => program),
-						countrySpecific: Object.entries(mcc.abPrograms.countrySpecific?.mcc ?? {})
+						countrySpecific: Object.entries(category.abPrograms.countrySpecific?.mcc ?? {})
 							.filter(([_, categories]) => categories == "all" || categories.includes(code))
 							.map(([program, _]) => program),
 					},
 			  }
 			: undefined
+	}
+	export function getAllPrograms(category: Range): { [program: string]: readonly string[] | "all" } {
+		return { ...(category.abPrograms.global?.mcc ?? {}), ...(category.abPrograms.countrySpecific?.mcc ?? {}) }
+	}
+	export function belongs(category: Range, program: string): (Range | Single)[] {
+		return Object.entries(getAllPrograms(category))
+			.filter(([p, _]) => program == p)
+			.map(([_, codes]) =>
+				codes == "all" ? [category] : codes.map(code => extract(category, code)).filter((c): c is Single => !!c)
+			)
+			.flat(1)
 	}
 }

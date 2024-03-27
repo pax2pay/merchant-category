@@ -1,0 +1,33 @@
+{
+  "code": "4112",
+  "name": "Passenger Railways",
+  "tcc": "X",
+  "description": "Railroads that primarily provide long-distance passenger\\ntransportation. Such railroads may or may not include overnight\\naccommodations on the train during long distance travel.\\nFor railways that transport freight, use MCC 4011.",
+  "category": "Transportation",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CF01",
+      "CR04",
+      "R001",
+      "TE01",
+      "TE02",
+      "TE03"
+    ],
+    "countrySpecific": [
+      "AUS3",
+      "AUS4",
+      "BEL1",
+      "BR03",
+      "BR08",
+      "CHLG",
+      "CHN8",
+      "CHN9",
+      "COLE",
+      "JA02",
+      "JPIB",
+      "JPN6",
+      "UR06"
+    ]
+  }
+}

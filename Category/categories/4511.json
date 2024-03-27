@@ -1,0 +1,27 @@
+{
+  "code": "4511",
+  "name": "Air Carriers, Airlines: Not Elsewhere Classified",
+  "tcc": "X",
+  "description": "Only those airlines and air carriers for which a unique MCC has not\\nbeen designated.",
+  "category": "Transportation",
+  "abPrograms": {
+    "global": [
+      "A001",
+      "CF01",
+      "TE01",
+      "TE02",
+      "TE03",
+      "TE04"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "CHLC",
+      "CHLG",
+      "CHLL",
+      "JA02",
+      "JPN2",
+      "SPN3",
+      "TT01-TTO"
+    ]
+  }
+}

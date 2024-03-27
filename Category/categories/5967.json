@@ -1,0 +1,24 @@
+{
+  "code": "5967",
+  "name": "Direct Marketing: Inbound Telemarketing Merchants",
+  "tcc": "T for non–face-to-face transactions.",
+  "description": "Merchants that provide one or more audiotext or videotext services\\nthat can be accessed via phone, fax, or over an open network such as\\nthe Internet. The cardholder initiates contact with the merchant and\\nall subsequent transactions. This MCC applies to information\\nservices offered over the telephone or the Internet, as well as to\\nproducts that may be sold through such services. Information\\nservices are provided for a fee and may include polls, sweepstakes,\\nadult chat and entertainment, sports scores, stock market quotes,\\nhoroscope readings, or other audio text or videotext services that\\nconsumers listen to, view, or participate in.\\nFor providers of electronic bulletin board access or online services\\nprovided via personal computers, use MCC 4816.",
+  "category": "Mail Order/Telephone Order Providers",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR02",
+      "M001",
+      "M003",
+      "SPN3"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "COL5",
+      "TT01-TTO"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "code": "7011",
+  "name": "Lodging: Hotels, Motels, Resorts: not elsewhere classified",
+  "tcc": "H",
+  "description": "Only those lodging establishments for which a unique MCC has not\\nbeen designated, including bed and breakfast and other local inns,\\nresorts, cabins, cottages, and hostels.",
+  "category": "Hotels and Motels",
+  "abPrograms": {
+    "global": [
+      "H001",
+      "TE01",
+      "TE02",
+      "TE03",
+      "TE04"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "COLA",
+      "JA02",
+      "JPN4",
+      "SPN3",
+      "TT01-TTO"
+    ]
+  }
+}

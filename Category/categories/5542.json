@@ -1,0 +1,38 @@
+{
+  "code": "5542",
+  "name": "Fuel Dispenser, Automated",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions",
+  "description": "Merchants that sell automotive gasoline using typically unattended\\nAutomated Fuel Dispensers, enabling cardholders to purchase fuel by\\ncompleting the transaction at the pump.\\nFor electric vehicle charging services, use MCC 5552.",
+  "category": "Automobiles and Vehicles",
+  "abPrograms": {
+    "global": [
+      "CCR4",
+      "CNV1",
+      "CR04",
+      "FLT1",
+      "FLT2",
+      "FT01",
+      "OTH1",
+      "OTH3",
+      "OT11",
+      "OT13",
+      "OT21",
+      "PET1"
+    ],
+    "countrySpecific": [
+      "ARG3",
+      "BR04",
+      "CAN6",
+      "CHL4",
+      "CHN8",
+      "CHNA",
+      "JA01",
+      "JPN3",
+      "OTH7",
+      "OT34",
+      "OT36",
+      "PET4",
+      "SPN3"
+    ]
+  }
+}

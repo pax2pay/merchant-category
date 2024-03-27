@@ -1,0 +1,18 @@
+{
+  "code": "7802",
+  "name": "Government Licensed Horse/Dog Racing (U.S. Region Only)",
+  "tcc": "P, U",
+  "description": "Merchants licensed in accordance with applicable law or regulation\\nto conduct horse or dog racing or pari-mutuel wagering activities in\\nconnection therewith, or both.\\nUse of this MCC is restricted to merchants located in the U.S. region\\nand properly registered with Mastercard as set forth in section 9.4.2\\nof the Security Rules and Procedures manual.",
+  "category": "Amusement and Entertainment",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CR05",
+      "GAM2",
+      "U001"
+    ],
+    "countrySpecific": [
+      "COLM"
+    ]
+  }
+}

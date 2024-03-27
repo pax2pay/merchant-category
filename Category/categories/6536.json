@@ -1,0 +1,8 @@
+{
+  "code": "6536",
+  "name": "MoneySend Intracountry",
+  "tcc": "P",
+  "description": "Identifies MoneySend Intracountry Payment Transactions.\\nMoneySend operates on the basis of account-to-account processing\\nwith funds transferred from the Originating Institution to any\\nMastercard, Maestro, or Cirrus account held at the Receiving\\nInstitution.",
+  "category": "Service Providers",
+  "abPrograms": {}
+}

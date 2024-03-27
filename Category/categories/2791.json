@@ -1,0 +1,47 @@
+{
+  "code": "2791",
+  "name": "Typesetting, Plate Making, and Related Services",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that perform wholesale typesetting for the printing trade\\nand make plates for printing purposes. Examples of such services\\ninclude advertisement typesetting, phototypesetting, computer-\\ncontrolled typesetting and color separations; the production of\\npositives and negatives from which offset lithographic plates are\\nmade; and engraving or embossing for printing purposes, such as\\nengraving on wood, rubber, copper, steel, or photoengraving.\\nFor merchants that primarily provide wholesale printing services, use\\nMCC 2741.",
+  "category": "Wholesale Distributors and Manufacturers",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR03",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLM",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

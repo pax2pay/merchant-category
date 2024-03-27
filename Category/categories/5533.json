@@ -1,0 +1,52 @@
+{
+  "code": "5533",
+  "name": "Automotive Parts, Accessories Stores",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that sell automobile parts, equipment, and accessories,\\nincluding vehicle charging equipment designed for personal use.\\nProducts for sale may include oil and oil filters, parts, mufflers,\\ncleaning products, spark plugs, waxing products, deodorizers,\\nwindshield wipers, and paint. These merchants also may or may not\\nsell a limited line of car stereos and speakers.\\nFor merchants that primarily sell car stereos and speakers, use MCC\\n5732.\\nFor electric vehicle charging services, use MCC 5552.",
+  "category": "Automobiles and Vehicles",
+  "abPrograms": {
+    "global": [
+      "CCR2",
+      "CR05",
+      "FLTM",
+      "FTM1",
+      "K001",
+      "K002",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLD",
+      "CHNA",
+      "COL2",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "SPN3",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}
