@@ -1,0 +1,25 @@
+{
+  "code": "4814",
+  "name": "Telecommunication Services including but not limited to prepaid phone",
+  "tcc": "R for face-to-face transactions.\\nT for non-face-to-face transactions.",
+  "description": "Providers of telecommunication services such as local and long-\\ndistance telephone calls and fax services. Included are merchants\\nthat sell prepaid phone services such as calling cards, and merchants\\nthat provide periodic (for example, monthly) billing of telephone calls.",
+  "category": "Utilities",
+  "abPrograms": {
+    "countrySpecific": [
+      "ARG1",
+      "BR05",
+      "CHLG",
+      "CHLN",
+      "CHN8",
+      "COLM",
+      "HK02",
+      "JA01",
+      "JPN9",
+      "JPNH",
+      "NZG1",
+      "NZU1",
+      "PR04",
+      "SPN3"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "code": "5013",
+  "name": "Motor Vehicle Supplies and New Parts",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Wholesale distributors of motor vehicle accessories, tools,\\nequipment, and new parts, including electric vehicle charging\\nequipment designed for commercial use.\\nFor automotive repair work, use MCC 7531 or 7538 as appropriate.\\nFor electric vehicle charging services, use MCC 5552.",
+  "category": "Wholesale Distributors and Manufacturers",
+  "abPrograms": {
+    "global": [
+      "CCR2",
+      "CR05",
+      "FLTM",
+      "FTM1",
+      "K001",
+      "K002",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COL2",
+      "JA02",
+      "JPNG",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

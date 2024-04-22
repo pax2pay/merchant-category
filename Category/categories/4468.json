@@ -1,0 +1,52 @@
+{
+  "code": "4468",
+  "name": "Marinas, Marine Service/Supplies",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Operators of marinas. Services provided may include boat slip rental,\\nboat storage, boat cleaning, incidental boat repair, and the retail sale\\nof marine supplies. This MCC includes merchants located at a marina\\nthat sell gasoline for consumer use in boats, and that do not have a\\nseparate merchant agreement from that of the marina.\\nFor service station merchants located at a marina that have a\\nseparate merchant agreement from that of the marina, use MCC\\n5541.",
+  "category": "Transportation",
+  "abPrograms": {
+    "global": [
+      "CCR2",
+      "CR05",
+      "FLT1",
+      "FLT2",
+      "FT01",
+      "K001",
+      "K002",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLM",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR06"
+    ]
+  }
+}

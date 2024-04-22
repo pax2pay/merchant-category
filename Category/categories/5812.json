@@ -1,0 +1,35 @@
+{
+  "code": "5812",
+  "name": "Eating Places, Restaurants",
+  "tcc": "F",
+  "description": "Merchants that prepare food and drinks for immediate consumption,\\ntypically on the merchant’s premises and also provide catering\\nservices. Such merchants provide table service by a waiter or\\nwaitress, and a gratuity may be added to the bill.\\nFor merchants that sell fast food, use MCC 5814.\\nFor merchants that sell alcoholic beverages for consumption on the\\npremises, use MCC 5813.",
+  "category": "Miscellaneous Stores",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CR03",
+      "F001",
+      "F004",
+      "F006",
+      "K001",
+      "RT01",
+      "RT02",
+      "ST01",
+      "TE01",
+      "TE03",
+      "TE04"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "BR90",
+      "CAN4",
+      "CHLG",
+      "CHLN",
+      "COLB",
+      "SPN3",
+      "TT01-TTO"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "code": "5968",
+  "name": "Direct Marketing: Continuity/Subscription Merchants",
+  "tcc": "T for non–face-to-face transactions.",
+  "description": "Merchants that sell subscription products or services via direct mail,\\nphone, the Internet, or other direct marketing method that includes\\neither a toll-free number, mailing address, e-mail address, or website\\nURL. Such merchants may offer a series of products (such as one\\nbook a month for one year) or the annual renewal of a single\\nproduct. The cardholder’s Mastercard card account is billed for the\\nproduct or service on a continuing or periodic basis (such as once a\\nmonth or twice a year), and the product or service continues until the\\nsubscription or series ends or the cardholder or merchant terminates\\nthe agreement. This MCC includes book clubs, magazine and\\nnewspaper subscriptions, audio clubs selling records, tapes, and\\ncompact discs (CDs), video tape and digital video disc (DVD) clubs,\\ncollectible series subscriptions (for example, series of stamps, coins,\\nbooks, plates, china figures, or plates), magazine subscriptions,\\nhealth-care product subscriptions, cosmetics subscriptions, vitamin\\nsubscriptions, and credit card registration service companies.\\nFor newspaper classified ads sold via direct marketing methods, use\\nMCC 5969.\\nAn acquirer must use this MCC to identify transactions arising from\\na high-risk negative option billing merchant selling physical products.\\nSuch merchant must be properly registered with Mastercard as set\\nforth in section 9.4.10 of the Security Rules and Procedures manual.\\nRecurring transactions excluded from this category include utility\\npayments (use MCC 4900), private athletic club monthly dues (use\\nMCC 7997), and insurance premiums (use MCC 6300).",
+  "category": "Mail Order/Telephone Order Providers",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR02M001",
+      "M003"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR01",
+      "CHLG",
+      "COL5",
+      "HK02",
+      "JA02",
+      "MAC2",
+      "TT01-TTO"
+    ]
+  }
+}

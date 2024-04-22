@@ -1,0 +1,48 @@
+{
+  "code": "7911",
+  "name": "Dance Halls, Schools, and Studios",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that operate dance studios, dance schools, and public\\ndance halls or ballrooms, and charge for admission fees, lessons, and\\nrefreshments. Such merchants may teach many types of dance or\\nspecialize in tap and ballet, ballroom, square dance instruction, or\\nother types of dance.",
+  "category": "Amusement and Entertainment",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CR03",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "ARG2",
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "PA02",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

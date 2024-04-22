@@ -1,0 +1,24 @@
+{
+  "code": "5962",
+  "name": "Direct Marketing: Travel-Related Arrangement Services",
+  "tcc": "T for non–face-to-face transactions.",
+  "description": "Merchants that sell travel-related arrangement services via\\noutbound telemarketing methods in which the merchant initiates\\ncontact with the consumer through direct mail, advertising, or other\\ndirect marketing methods requiring consumer response in an\\nattempt to generate a sale. Also included are discount travel clubs\\nand subscription services or newsletters from which subscribers\\nselect prepackaged trips; these often require an annual membership\\nfee that may be billed to the cardholder’s account each year until\\ncanceled by the cardholder or the merchant.\\nFor travel agents and tour operators, use MCC 4722.",
+  "category": "Mail Order/Telephone Order Providers",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR03",
+      "GW01",
+      "M001",
+      "M003"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "COL1",
+      "TT01-TTO"
+    ]
+  }
+}

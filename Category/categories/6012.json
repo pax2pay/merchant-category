@@ -1,0 +1,48 @@
+{
+  "code": "6012",
+  "name": "Merchandise and Services: Customer Financial Institution",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Identifies the purchase of merchandise or services at a Mastercard\\ncustomer financial institution location. Such merchandise and\\nservices may include checks and other financial products,\\npromotional merchandise, loan fees, and financial counseling service\\nfees.\\nFor securities or brokerage transaction service fees or other related\\ncosts, use MCC 6211.\\nFor cash disbursements, use MCC 6010 for face-to-face\\ntransactions and MCC 6011 for transactions that occur at ATMs.",
+  "category": "Service Providers",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CR05",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLD",
+      "CHLM",
+      "CHNA",
+      "COLM",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "code": "5411",
+  "name": "Grocery Stores, Supermarkets",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that sell a complete line of food merchandise for home\\nconsumption. Food products for sale include groceries, meat,\\nproduce, dairy products, and canned, frozen, prepackaged, and dry\\nfoods. Other products for sale may include a limited selection of\\nhousewares, cleaning and polishing products, personal hygiene\\nproducts, cosmetics, greeting cards, books, magazines, household\\nitems, and dry goods. These merchants also may operate specialized\\ndepartments such as an in-store deli counter, meat counter,\\npharmacy, or floral department.\\nFor convenience stores that sell a limited selection of products or\\nspecialty items, use MCC 5499.",
+  "category": "Retail Stores",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CR05",
+      "K001",
+      "K002",
+      "S001"
+    ],
+    "countrySpecific": [
+      "ARG4",
+      "BR80",
+      "CHL7",
+      "CHN8",
+      "COL4",
+      "COLK",
+      "COLP",
+      "JA01",
+      "JPNE",
+      "NZM1",
+      "PA01",
+      "PR01",
+      "QPS1",
+      "UR01"
+    ]
+  }
+}

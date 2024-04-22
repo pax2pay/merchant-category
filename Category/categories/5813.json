@@ -1,0 +1,30 @@
+{
+  "code": "5813",
+  "name": "Bars, Cocktail Lounges, Discotheques, Nightclubs, and Taverns: Drinking",
+  "tcc": "F",
+  "description": "Merchants that sell alcoholic beverages such as wine, beer, ale, mixed\\ndrinks, and other liquors and beverages for consumption on the\\npremises. Drinking places include bars, beer gardens, microbreweries,\\npubs, taprooms, cocktail lounges, discotheques, nightclubs, saloons,\\ntaverns, comedy clubs, and wine bars.",
+  "category": "Miscellaneous Stores",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CR03",
+      "F001",
+      "F002",
+      "F006",
+      "K001",
+      "K002"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "BR90",
+      "CHLG",
+      "CHLN",
+      "COLB",
+      "F004",
+      "SPN3",
+      "TT01-TTO"
+    ]
+  }
+}

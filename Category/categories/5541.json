@@ -1,0 +1,48 @@
+{
+  "code": "5541",
+  "name": "Service Stations (with or without Ancillary Services)",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that sell fuel for consumer use and may or may not also\\nhave a convenience store, car wash, or automotive repair shop on the\\npremises. This MCC includes service station merchants located at a\\nmarina that have a separate merchant agreement from that of the\\nmarina.\\nFor transactions occurring at unattended automated fuel\\ndispensers, use MCC 5542.\\nFor electric vehicle charging services, use MCC 5552.",
+  "category": "Automobiles and Vehicles",
+  "abPrograms": {
+    "global": [
+      "CCR4",
+      "CNV1",
+      "CR04",
+      "FLT1",
+      "FLT2",
+      "FT01",
+      "K001",
+      "K002",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH9",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT21",
+      "OT22",
+      "OT32",
+      "PET2"
+    ],
+    "countrySpecific": [
+      "ARG3",
+      "BR04",
+      "CAN6",
+      "CHL4",
+      "CHN8",
+      "CHNA",
+      "JA01",
+      "JPN3",
+      "OTH7",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT41",
+      "PET4",
+      "QPS1",
+      "SPN3"
+    ]
+  }
+}

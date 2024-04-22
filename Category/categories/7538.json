@@ -1,0 +1,52 @@
+{
+  "code": "7538",
+  "name": "Automotive Service Shops",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that conduct automotive repairs and general servicing.\\nSuch service may include engines, brakes, air conditioning systems,\\nmufflers, front ends and frames, fuel systems, carburetors, radiators,\\nwindshields and windows, and electrical systems. This MCC includes\\nthe popular quick oil change merchants and lube merchants. Service\\nshops also may or may not perform wheel alignment, balancing, and\\nrepair services.\\nFor automotive service specialists, use the MCC that best describes\\nthe service provided, for example, for tire repairs and retreads, use\\nMCC 7534; for automotive painting, use MCC 7535; and for\\nautomotive body repair work, use MCC 7531.",
+  "category": "Repair Services",
+  "abPrograms": {
+    "global": [
+      "CCR2",
+      "CR05",
+      "FLTM",
+      "FTM1",
+      "K001",
+      "K002",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLE",
+      "CHNA",
+      "COL2",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "QPS1",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "code": "7512",
+  "name": "Automobile Rental Agency: not elsewhere classified",
+  "tcc": "A",
+  "description": "Only those car rental agencies for which a unique MCC has not been\\ndesignated.",
+  "category": "Automobile/Vehicle Rentals",
+  "abPrograms": {
+    "global": [
+      "TE01",
+      "TE02",
+      "TE03",
+      "TE04",
+      "V001"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "COLN",
+      "SPN3",
+      "TT01-TTO"
+    ]
+  }
+}

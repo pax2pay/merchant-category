@@ -1,0 +1,26 @@
+{
+  "code": "7513",
+  "name": "Truck Rental",
+  "tcc": "A",
+  "description": "Merchants that provide short-term rental or long-term leasing of\\ntrucks, vans, or utility trailers. Such vehicles are used for moving or\\nhauling, and are rented on a do-it-yourself basis.",
+  "category": "Automobile/Vehicle Rentals",
+  "abPrograms": {
+    "global": [
+      "TE01",
+      "TE02",
+      "TE03",
+      "TE04",
+      "V001"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLN",
+      "SPN3",
+      "TT01-TTO"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "code": "5300",
+  "name": "Wholesale Clubs",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Operators of warehouse-style, no frills stores that sell a wide variety\\nof merchandise in bulk, and concentrate on price appeal. Such\\nmerchants may or may not have membership requirements.\\nProducts for sale may include household supplies and appliances,\\noffice supplies and equipment, dry groceries and perishables,\\nhousehold and office furniture, electronics, and auto supplies.",
+  "category": "Retail Stores",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CR05",
+      "K001",
+      "K002",
+      "W001"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "CAN1",
+      "CAN6",
+      "CHLG",
+      "COLN",
+      "JA02"
+    ]
+  }
+}

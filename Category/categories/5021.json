@@ -1,0 +1,49 @@
+{
+  "code": "5021",
+  "name": "Office and Commercial Furniture",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Wholesale manufacturers or distributors of office furniture (for\\nexample, desks, chairs, cabinets, partitions, shelving, computer\\nfurniture) and commercial furniture (for example, restaurant tables\\nand chairs, public park and building furniture, church pews, school\\ndesks, theater seats, chairs, tables, and magazine racks for hospital\\nlobbies or medical or dental reception areas).\\nFor wholesalers that manufacture or sell hospital equipment or\\nfurniture such as beds, use MCC 5047.",
+  "category": "Wholesale Distributors and Manufacturers",
+  "abPrograms": {
+    "global": [
+      "CCR4",
+      "CR05",
+      "K001",
+      "K002",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLN",
+      "JA02",
+      "JPNG",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

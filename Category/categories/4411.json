@@ -1,0 +1,30 @@
+{
+  "code": "4411",
+  "name": "Cruise Lines",
+  "tcc": "H for transactions originating at merchant locations aboard the ship,\\nfor example, an apparel store, gift shop, or florist.\\nX for the purchase prior to embarkation of tickets for cruise ship\\naccommodations.",
+  "description": "Merchants that provide passenger transportation on the open seas\\nor inland waters for the purpose of vacation or pleasure. Such\\nmerchants typically offer food, entertainment, and cabin\\naccommodations inclusive in the fare, and operate predefined and\\nadvertised routes.",
+  "category": "Transportation",
+  "abPrograms": {
+    "global": [
+      "B001",
+      "CCR1",
+      "CR04",
+      "TE03",
+      "TP01",
+      "TP02",
+      "TE04"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLE",
+      "COLN",
+      "JA02",
+      "JPN3",
+      "SPN3",
+      "TT01-TTO",
+      "UR06"
+    ]
+  }
+}

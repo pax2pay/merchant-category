@@ -1,0 +1,49 @@
+{
+  "code": "5045",
+  "name": "Computers, Computer Peripheral Equipment, Software",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Wholesale distributors of computer hardware, software, and related\\nequipment that may or may not conduct repair work. Products for\\nsale may include computer monitors, disk drives, cables, keyboards,\\nprinters, scanners, modems, computer programs, and related\\naccessories and equipment. Such merchants may also sell desks or\\nother office furniture specifically designed for use with computers.\\nFor merchants that primarily sell computer furniture, use MCC 5021.\\nFor merchants that primarily conduct repair work, use MCC 7379.",
+  "category": "Wholesale Distributors and Manufacturers",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR03",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLE",
+      "CHLN",
+      "CHNA",
+      "COLF",
+      "JA02",
+      "JPNG",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

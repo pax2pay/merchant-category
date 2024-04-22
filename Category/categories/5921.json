@@ -1,0 +1,52 @@
+{
+  "code": "5921",
+  "name": "Package Stores, Beer, Wine, and Liquor",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that sell packaged alcoholic beverages such as ale, beer,\\nwine, and liquor for consumption off the premises. Such merchants\\nmay or may not also sell a limited variety of snack items,\\nnewspapers, and magazines, or toiletries and over-the-counter\\nmedicines.\\nFor merchants that sell liquor for consumption on the premises, use\\nMCC 5813.",
+  "category": "Miscellaneous Stores",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR04",
+      "K001",
+      "K002",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHLL",
+      "CHNA",
+      "COLN",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "QPS1",
+      "SPN3",
+      "TT01-TTO",
+      "UR01"
+    ]
+  }
+}

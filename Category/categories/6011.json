@@ -1,0 +1,17 @@
+{
+  "code": "6011",
+  "name": "Automated Cash Disbursements: Customer Financial Institution",
+  "tcc": "Z",
+  "description": "Identifies cash disbursement transactions occurring at automated\\nteller machines (ATMs) owned, leased, controlled, or sponsored by\\nMastercard customers.\\nFor face-to-face cash disbursement transactions occurring at a\\nMastercard customer financial institutions, use MCC 6010.",
+  "category": "Service Providers",
+  "abPrograms": {
+    "global": [
+      "Z001"
+    ],
+    "countrySpecific": [
+      "BR07",
+      "BR10",
+      "CHLG"
+    ]
+  }
+}

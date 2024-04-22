@@ -1,0 +1,50 @@
+{
+  "code": "5993",
+  "name": "Cigar Stores and Stands",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Retailers that sell tobacco, cigarettes, cigars, pipes, smokers’\\nsupplies, or electronic nicotine delivery systems (such as electronic\\ncigarettes [e-cigarettes]).",
+  "category": "Miscellaneous Stores",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR04",
+      "K001",
+      "K002",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLN",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "SPN3",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

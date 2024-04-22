@@ -1,0 +1,50 @@
+{
+  "code": "8999",
+  "name": "Professional Services: not elsewhere classified",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants engaged in traditional professions that offer highly\\nspecialized services, and often require employees to obtain advanced\\nor specialized education or training to provide the services. This MCC\\nshould be used only if the merchant’s business is not described by\\nanother, more specific MCC. Examples of such merchants include\\nmortgage brokers, research firms, financial planners, graphic\\ndesigners, guest speakers and lecturers, court stenographers, real\\nestate appraisers, research firms, and auction houses.",
+  "category": "Professional Services and Membership Organizations",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR03",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLE",
+      "CHNA",
+      "COLL",
+      "JA02",
+      "JPNG",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "PR06",
+      "SPN3",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

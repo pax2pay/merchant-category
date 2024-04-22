@@ -1,0 +1,49 @@
+{
+  "code": "5932",
+  "name": "Antique Shops: Sales, Repairs, and Restoration Services",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that sell antiques and may or may not also conduct some\\nrepair or restoration work. Products for sale may include furniture,\\njewelry, cameras and photographic equipment, tools, artwork, books,\\nappliances, and other household items.\\nFor merchants that sell antique automobiles, use MCC 5521.\\nFor merchants that primarily repair or restore antique furniture, use\\nMCC 7641.",
+  "category": "Miscellaneous Stores",
+  "abPrograms": {
+    "global": [
+      "CCR4",
+      "CR05",
+      "K001",
+      "K002",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLN",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

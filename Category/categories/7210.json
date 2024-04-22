@@ -1,0 +1,51 @@
+{
+  "code": "7210",
+  "name": "Cleaning, Garment, and Laundry Services",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that operate steam or other types of laundries for\\ncommercial businesses or individuals. On a weekly or monthly basis,\\nthese merchants provide laundered items such as uniforms, gowns,\\naprons, table linens, bed linens, and towels. This MCC also includes\\ndiaper services offering home pick-up, cleaning, and delivery.",
+  "category": "Personal Service Providers",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR03",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CAN4",
+      "CHLG",
+      "CHLM",
+      "CHNA",
+      "COLL",
+      "IDN2",
+      "JA02",
+      "JPNG",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

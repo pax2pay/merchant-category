@@ -1,0 +1,48 @@
+{
+  "code": "5817",
+  "name": "Digital Goods: Software Applications (Excluding Games)",
+  "tcc": "T for non–face-to-face transactions.",
+  "description": "Merchants that sell prewritten software applications made available\\nto a cardholder via remote access (for example, a hosted server) or\\ndownload. Such applications include, but are not limited to,\\naccounting or financial programs, office suites, data management\\nresources, image organizers, media players, and animation\\ndevelopment tools.",
+  "category": "Miscellaneous Stores",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR04",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "ARG5",
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLM",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

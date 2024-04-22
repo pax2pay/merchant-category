@@ -1,0 +1,24 @@
+{
+  "code": "6051",
+  "name": "Quasi Cash: Merchant",
+  "tcc": "U",
+  "description": "Identifies the purchase, with a Mastercard or Maestro card, of\\ntravelers cheques, foreign currency, or money orders, or the use of a\\nMastercard card to open or fund a deposit account, at a location\\nother than a Mastercard customer financial institution location. This\\nMCC may also be used to identify transactions in which a merchant\\naccepts a Mastercard or Maestro card for payment of an existing\\ndebt, such as a private label card or vehicle loan.\\nIn addition, this MCC must be used to identify transactions involving\\nthe purchase of cryptocurrency.\\nMCC 6051 must not be used to identify any sale other than as\\ndescribed, including, by way of example and not limitation; gambling\\ntransactions (MCC 7995, MCC 7801, or MCC 7802, as appropriate,\\nmust be used); videotext transactions (MCC 5967 must be used);\\nthe sale of any prescription drug (MCC 5122 or MCC 5912 must be\\nused); or the sale of any tobacco product (MCC 5993 must be used).\\nAny fee charged and included in the total transaction amount must\\nbe clearly disclosed to the cardholder before completing the\\ntransaction.\\nFor the face-to-face purchase of foreign currency, money orders, or\\ntravelers cheques at a Mastercard customer financial institution\\nlocation, use MCC 6010.",
+  "category": "Service Providers",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CR05",
+      "T002",
+      "U001"
+    ],
+    "countrySpecific": [
+      "BR07",
+      "BR10",
+      "CHLE",
+      "CHLM",
+      "COLM",
+      "JA02",
+      "U003"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "code": "5719",
+  "name": "Miscellaneous House Furnishing Specialty Shops",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that sell miscellaneous home furnishings. Products for\\nsale may include housewares, cutlery, bedding and linen, lamps and\\nshades, mirrors, pictures, pottery, and ceramic items.\\nFor merchants that primarily sell glassware and crystal, use MCC\\n5950.",
+  "category": "Miscellaneous Stores",
+  "abPrograms": {
+    "global": [
+      "CCR4",
+      "CR05",
+      "K001",
+      "K002",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLE",
+      "CHNA",
+      "COLK",
+      "COLN",
+      "COLP",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR04"
+    ]
+  }
+}

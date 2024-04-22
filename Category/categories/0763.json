@@ -1,0 +1,45 @@
+{
+  "code": "0763",
+  "name": "Agricultural Cooperatives",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Associations and cooperatives that provide farm management\\nservices or assistance in farming operations. Examples of such\\nservices include financial assistance, management, or complete\\nmaintenance of crops, soil preparation, planting and cultivating,\\naerial dusting and spraying, disease and insect control, weed control,\\nand the harvesting of crops.\\nFor merchants that provide farm product warehousing and storage,\\nuse MCC 4225.",
+  "category": "Contracted Services",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR04",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLM",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "UR10"
+    ]
+  }
+}

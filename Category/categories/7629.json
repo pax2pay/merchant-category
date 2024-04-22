@@ -1,0 +1,47 @@
+{
+  "code": "7629",
+  "name": "Appliance Repair Shops, Electrical and Small",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that service and repair household and commercial\\nelectrical components and small appliances such as microwaves,\\ntoaster ovens, and toasters, as well as merchants that service and\\nrepair electrical office machines, excluding typewriters.\\nFor merchants that specialize in typewriter repairs, use MCC 5978.\\nFor specialists in electronics repairs, use MCC 7622.\\nFor merchants that repair large household appliances, use MCC\\n7699.",
+  "category": "Repair Services",
+  "abPrograms": {
+    "global": [
+      "CCR2",
+      "CR03",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLN",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

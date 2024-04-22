@@ -1,0 +1,50 @@
+{
+  "code": "5698",
+  "name": "Wig and Toupee Shops",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that sell permanently attached or temporary toupees,\\nwigs, hairpieces, and hair extensions for men and women, and\\nincludes those that provide hair-weaving services.\\nFor merchants providing hair replacement services that require\\nsurgical techniques, use MCC 8099.",
+  "category": "Clothing Stores",
+  "abPrograms": {
+    "global": [
+      "CCR2",
+      "CR04",
+      "K001",
+      "K002",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLN",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR03",
+      "UR10"
+    ]
+  }
+}

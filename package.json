@@ -1,14 +1,14 @@
 {
-	"name": "@utily/library-template",
-	"version": "0.0.16",
-	"description": "Template library for Typescript.",
-	"author": "Utily Contributors",
+	"name": "merchant-category",
+	"version": "0.0.0",
+	"description": "Library with information about merchant categories.",
+	"author": "Pax2Pay",
 	"license": "MIT",
-	"repository": "https://github.com/utily/library-template",
+	"repository": "https://github.com/pax2pay/merchant-category",
 	"bugs": {
-		"url": "https://github.com/utily/library-template/issues"
+		"url": "https://github.com/pax2pay/merchant-category/issues"
 	},
-	"homepage": "https://github.com/utily",
+	"homepage": "https://github.com/pax2pay",
 	"private": false,
 	"main": "dist/index.js",
 	"typings": "dist/index.d.ts",
@@ -54,16 +54,19 @@
 		"clean": "rimraf dist node_modules coverage"
 	},
 	"devDependencies": {
-		"@types/jest": "^28.1.6",
-		"@typescript-eslint/eslint-plugin": "5.31.0",
-		"@typescript-eslint/parser": "5.31.0",
-		"eslint": "^8.20.0",
-		"eslint-plugin-prettierx": "github:utily/eslint-plugin-prettierx#utily-20220323",
-		"eslint-plugin-simple-import-sort": "^7.0.0",
-		"jest": "^28.1.3",
-		"prettierx": "github:utily/prettierx#utily-20220323",
-		"rimraf": "^3.0.2",
-		"ts-jest": "^28.0.7",
-		"typescript": "^4.7.4"
+		"@types/jest": "^29.5.12",
+		"@typescript-eslint/eslint-plugin": "7.5.0",
+		"@typescript-eslint/parser": "7.5.0",
+		"eslint": "^8.57.0",
+		"eslint-plugin-prettierx": "github:utily/eslint-plugin-prettierx#utily-20231004",
+		"eslint-plugin-simple-import-sort": "^12.0.0",
+		"jest": "^29.7.0",
+		"prettierx": "github:utily/prettierx#utily-20231004",
+		"rimraf": "^5.0.5",
+		"ts-jest": "^29.1.2",
+		"typescript": "^5.4.4"
+	},
+	"dependencies": {
+		"isly": "^0.1.13"
 	}
 }

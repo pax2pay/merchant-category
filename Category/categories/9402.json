@@ -1,0 +1,53 @@
+{
+  "code": "9402",
+  "name": "Postal Services: Government Only",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Government postal offices, including local post office branches.\\nServices provided include accepting and processing packages and\\nmail for delivery, selling postage stamps, and express mailing\\nservices.\\nFor mail packaging stores that provide packaging services and sell\\nstamps, greeting cards, and wrapping, and that may also provide\\nservices for UPS, Federal Express, and other express mail services,\\nuse MCC 7399.",
+  "category": "Government Services",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CF01",
+      "CR03",
+      "EM01",
+      "EM02",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32",
+      "PS01",
+      "ST01"
+    ],
+    "countrySpecific": [
+      "AUS1",
+      "BEL1",
+      "BR02",
+      "CHLG",
+      "CHNA",
+      "COLM",
+      "EM03",
+      "JA01",
+      "JPN1",
+      "NZG1",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR09"
+    ]
+  }
+}

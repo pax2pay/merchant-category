@@ -1,0 +1,24 @@
+{
+  "code": "7519",
+  "name": "Motor Home and Recreational Vehicle Rental",
+  "tcc": "A",
+  "description": "Merchants that rent motor homes, RVs, pop-up campers, tent\\ntrailers, and other recreational vehicles on a daily, short-term, or\\nextended-term basis.\\nFor aircraft, bicycle, motorcycle, and go-cart rentals, use MCC 7999.\\nFor recreational boat rentals, use MCC 4457.",
+  "category": "Automobile/Vehicle Rentals",
+  "abPrograms": {
+    "global": [
+      "TE01",
+      "TE02",
+      "TE03",
+      "TE04",
+      "V001"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "COLN",
+      "CHLG",
+      "TT01-TTO"
+    ]
+  }
+}

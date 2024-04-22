@@ -1,0 +1,16 @@
+{
+  "code": "6532",
+  "name": "Payment Transaction: Customer Financial Institution",
+  "tcc": "P",
+  "description": "This MCC may be used only to identify Payment Transactions as\\nstated below. A Payment Transaction is a transfer of funds to a\\nMastercard, Maestro, or Cirrus account by means of the Mastercard\\nnetwork. For more information, refer to section 6.1 of the\\nTransaction Processing Rules.\\nNOTE: This MCC must only be used for rePower value loads or\\nspecified domestic payments, in combination with one of the\\nfollowing Transaction Type Identifier (TTI) values as applicable:\\n• C02 Mastercard rebate\\n• C03 rePower Load Value\\n• C06 Payment of a credit card balance with cash or check (for\\nColombia domestic use only)\\n• C91 Utility Payments (for Brazil domestic use only)\\n• C92 Government Services (for Brazil domestic use only)\\n• C93 Mobile phone top-ups (for Brazil domestic use only)\\n• C94 Coupon booklet payments (for Brazil domestic use only)\\nFor information about TTI usage, refer to DE 48, subelement 77\\n(Transaction Type Identifier) in the Customer Interface Specification\\nand Single Message Specifications manuals and PDS 0043\\n(Transaction Type Identifier) in the IPM Clearing Formats manual.",
+  "category": "Service Providers",
+  "abPrograms": {
+    "global": [
+      "D001"
+    ],
+    "countrySpecific": [
+      "BR06",
+      "CHLG"
+    ]
+  }
+}

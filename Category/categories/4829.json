@@ -1,0 +1,26 @@
+{
+  "code": "4829",
+  "name": "Money Transfer",
+  "tcc": "U",
+  "description": "A transaction in which funds are delivered or made available to a\\nperson or to an account. These transactions include non–face-to-\\nface transactions such as those facilitated through the Internet.\\nAny fee charged and included in the total transaction amount must\\nbe clearly disclosed to the cardholder before completing the\\ntransaction.\\nThe acquirer must include the identity and location of the money\\ntransfer agent that accepts the card and effects the transaction in\\nthe acceptor descriptor record as the site where the transaction was\\neffected. For more information, refer to the Mastercard MoneySend\\nand Funding Transactions Program Standards.",
+  "category": "Service Providers",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CR05",
+      "MON2",
+      "U001"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "JA02",
+      "SPN3",
+      "TT01-TTO",
+      "U003",
+      "UR09"
+    ]
+  }
+}

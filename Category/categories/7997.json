@@ -1,0 +1,51 @@
+{
+  "code": "7997",
+  "name": "Clubs: Country Clubs, Membership (Athletic, Recreation, Sports), Private Golf",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that operate sports and recreation facilities requiring\\nmembership. Examples of such facilities include exercise, athletic,\\nand health clubs, country clubs, private golf courses, boating yacht\\nclubs, swimming clubs, tennis clubs, bowling leagues, riding clubs,\\nshooting and gun clubs, and racquetball clubs. Such merchants may\\nor may not provide massage services and spa services such as facials,\\nweight control counseling, aromatherapy, steam baths, and\\nwhirlpools.\\nFor merchants that primarily provide massages, use MCC 7297.\\nFor merchants that primarily operate a spa and its related services,\\nuse MCC 7298.",
+  "category": "Amusement and Entertainment",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CR03",
+      "GW01",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR01",
+      "CHLE",
+      "CHNA",
+      "COLA",
+      "HK02",
+      "JA02",
+      "JPNF",
+      "MAC2",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "SPN3",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "code": "7933",
+  "name": "Bowling Alleys",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that operate bowling alleys for entertainment, and may\\naccept Mastercard cards for rental fees, pro shop purchases,\\nrefreshments, or usage fees.\\nMerchants located within the bowling alley that are separately\\nmanaged must be classified with the appropriate MCC for that type\\nof business.\\nFor example, a restaurant located within a bowling alley must use\\nMCC 5812; a bar must use MCC 5813.",
+  "category": "Amusement and Entertainment",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CR03",
+      "EM04",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLN",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

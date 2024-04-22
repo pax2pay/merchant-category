@@ -1,0 +1,20 @@
+{
+  "code": "7800",
+  "name": "Government Owned Lottery (U.S. Region Only)",
+  "tcc": "P for Gaming Payment Transactions.\\nR for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Government bodies that operate or administer lotteries and engage\\nin the sale of lottery tickets or shares on the Internet or in a physical\\nplace of business either directly or through designated agents.\\nUse of this MCC is restricted to merchants located in the U.S. region\\nand properly registered with Mastercard as set forth in section 9.4.4\\nof the Security Rules and Procedures manual.",
+  "category": "Amusement and Entertainment",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR03",
+      "G001",
+      "OTH1"
+    ],
+    "countrySpecific": [
+      "CHNA",
+      "COLM",
+      "OT36"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "code": "4011",
+  "name": "Railroads; Freight",
+  "tcc": "X",
+  "description": "Railroads engaged in freight transport operations.\\nFor railways that provide passenger transportation, use MCC 4112.",
+  "category": "Transportation",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CF01",
+      "CR04",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32",
+      "OT36"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR03",
+      "BR08",
+      "CHLE",
+      "CHLL",
+      "CHNA",
+      "COLE",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT39",
+      "OT40",
+      "OT41",
+      "SPN3",
+      "TT01-TTO",
+      "UR06"
+    ]
+  }
+}

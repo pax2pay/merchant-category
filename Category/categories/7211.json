@@ -1,0 +1,49 @@
+{
+  "code": "7211",
+  "name": "Laundry Services: Family and Commercial",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that provide self-service washers and dryers for general\\nconsumer use, including pay-by-the-pound laundry service. Such self-\\nservice laundry services are typically known as laundromats but also\\nare found in dormitories, apartment buildings, or other similar\\nlocations.",
+  "category": "Personal Service Providers",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR03",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32",
+      "ST01"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CAN4",
+      "CHLG",
+      "CHNA",
+      "COLL",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

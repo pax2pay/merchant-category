@@ -1,0 +1,49 @@
+{
+  "code": "5996",
+  "name": "Swimming Pools: Sales and Supplies",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Retailers that sell home swimming pools (in-ground or prefabricated\\nabove-ground pools), spas, hot tubs, whirlpool baths, and pool\\nsupplies. Such merchants may or may not also provide installation\\nand maintenance services.\\nFor merchants that primarily provide installation services, use MCC\\n1799. These merchants also may or may not provide repair services.\\nFor merchants that primarily provide repair services, use MCC 7699.",
+  "category": "Miscellaneous Stores",
+  "abPrograms": {
+    "global": [
+      "OTH1",
+      "CCR3",
+      "CR04",
+      "K001",
+      "K002",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLN",
+      "JA02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "code": "5814",
+  "name": "Fast Food Restaurants",
+  "tcc": "F",
+  "description": "Merchants that sell prepared food and beverages for immediate\\nconsumption either on the premises or packaged for carry-out. Fast\\nfood restaurants may or may not operate a drive-up window for\\nordering and pick-up, and may or may not provide table service by a\\nwaiter or waitress. In any case, orders are paid for at the counter or\\nat a drive-up window. Fast food restaurants include cafes,\\ncafeterias, grills, coffee shops, diners, pizza parlors, sandwich bars or\\nshops, deli shops, and snack shops. If table service is provided, a\\ngratuity may be added to the bill. Such merchants generally do not\\nsell alcoholic beverages.",
+  "category": "Miscellaneous Stores",
+  "abPrograms": {
+    "countrySpecific": [
+      "BEL1",
+      "BR03",
+      "BR08",
+      "BR90",
+      "CAN4",
+      "CHLB",
+      "CHLJ",
+      "CHN8",
+      "COL8",
+      "F005",
+      "JA02",
+      "JPNC",
+      "PA01",
+      "PR03",
+      "QPS1",
+      "S003",
+      "SPN3",
+      "ST03-TTO"
+    ]
+  }
+}

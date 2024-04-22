@@ -1,0 +1,52 @@
+{
+  "code": "5944",
+  "name": "Clock, Jewelry, Watch, and Silverware Store",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Merchants that sell clocks and watches; precious metals; fine jewelry\\nsuch as diamonds or other precious stones mounted in precious\\nmetals; and sterling silver and plated flatware and accessories, such\\nas platters, serving bowls, trivets, and pitchers. Such merchants may\\nalso conduct repair work.\\nFor merchants that primarily repair fine jewelry, watches, or clocks,\\nuse MCC 7699.\\nFor merchants that primarily sell china or crystal, use MCC 5950.",
+  "category": "Miscellaneous Stores",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR04",
+      "K001",
+      "K002",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "CHNA",
+      "COLK",
+      "COLN",
+      "JA02",
+      "MM02",
+      "OTH8",
+      "OT33",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "SPN3",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

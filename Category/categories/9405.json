@@ -1,0 +1,47 @@
+{
+  "code": "9405",
+  "name": "Intra-Government Purchases: Government Only",
+  "tcc": "R for face-to-face transactions.\\nT for non–face-to-face transactions.",
+  "description": "Identifies transactions between governmental offices, departments,\\nor agencies that participate in the intra-government transfers\\n(IGOTS) program.",
+  "category": "Government Services",
+  "abPrograms": {
+    "global": [
+      "CCR3",
+      "CR03",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5",
+      "OTH6",
+      "OT11",
+      "OT12",
+      "OT13",
+      "OT14",
+      "OT15",
+      "OT16",
+      "OT21",
+      "OT22",
+      "OT25",
+      "OT32"
+    ],
+    "countrySpecific": [
+      "AUS1",
+      "BEL1",
+      "BR02",
+      "CHLG",
+      "CHNA",
+      "COLM",
+      "EM03",
+      "JA02",
+      "NZG1",
+      "OT34",
+      "OT36",
+      "OT39",
+      "OT40",
+      "OT41",
+      "TT01-TTO",
+      "UR10"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "code": "6540",
+  "name": "Funding Transactions",
+  "tcc": "R for face-to-face transactions.\\nT for non-face-to-face transactions.",
+  "description": "Identifies a Funding Transaction, as described in section 6.6 of the\\nTransaction Processing Rules.\\nMCC 6540 must not be used to identify a Funding Transaction\\nconducted for purposes of funding any of the activities described in\\nsection 9.1 of the Security Rules and Procedures manual (the\\nappropriate MCC for each such activity must be used).\\nFunding Transactions must comply with the requirements set out in\\nthe Standards, including the Mastercard MoneySend and Funding\\nTransaction Program Standards.",
+  "category": "Service Providers",
+  "abPrograms": {
+    "global": [
+      "CCR1",
+      "CR05",
+      "MON1",
+      "MON2",
+      "MON3",
+      "OTH1",
+      "OTH2",
+      "OTH3",
+      "OTH4",
+      "OTH5"
+    ]
+  }
+}
