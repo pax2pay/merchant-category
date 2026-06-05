@@ -32,12 +32,17 @@ export namespace Category {
 		return result
 	}
 	export function logIssues(category: Single | Range) {
-		if (Category.Single.is(category))
-			Code.is(category.code) || console.error(`code ${category.code} is not valid mcc on ${category.name}`)
-		else {
-			Code.is(category.code.from) ||
+		if (Category.Single.is(category)) {
+			if (!Code.is(category.code)) {
+				console.error(`code ${category.code} is not valid mcc on ${category.name}`)
+			}
+		} else {
+			if (!Code.is(category.code.from)) {
 				console.error(`code.from ${category.code.from} is not valid mcc on ${category.name}`)
-			Code.is(category.code.to) || console.error(`code.to ${category.code.to} is not valid mcc on ${category.name}`)
+			}
+			if (!Code.is(category.code.to)) {
+				console.error(`code.to ${category.code.to} is not valid mcc on ${category.name}`)
+			}
 			Object.entries(category.abPrograms.global?.mcc ?? {}).forEach(
 				([program, codes]) =>
 					codes == "all" ||
