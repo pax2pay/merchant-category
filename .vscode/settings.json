@@ -40,6 +40,5 @@
 		"tidily",
 		"transactly",
 		"uply"
-	],
-	"js/ts.tsdk.path": "node_modules/typescript/lib"
+	]
 }
