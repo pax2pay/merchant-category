@@ -1,0 +1,22 @@
+{
+  "code": "3010",
+  "name": "Royal Dutch Airlines (KLM)",
+  "tcc": "X",
+  "description": "Airlines, Air Carriers. Abbreviated airline name: KLM",
+  "category": "Airlines",
+  "abPrograms": {
+    "global": [
+      "A001",
+      "CF01",
+      "TE01",
+      "TE02",
+      "TE03",
+      "TE04"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "CHLL",
+      "TT01-TTO"
+    ]
+  }
+}

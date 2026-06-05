@@ -1,0 +1,24 @@
+{
+  "code": "3635",
+  "name": "Reso Hotel",
+  "tcc": "H",
+  "description": "Lodging: Hotels, Motels, Resorts",
+  "category": "Hotels and Motels",
+  "abPrograms": {
+    "global": [
+      "H001",
+      "TE01",
+      "TE02",
+      "TE03",
+      "TE04"
+    ],
+    "countrySpecific": [
+      "BR07",
+      "COLA",
+      "JA02",
+      "TT01-TTO",
+      "BEL1",
+      "BR10"
+    ]
+  }
+}

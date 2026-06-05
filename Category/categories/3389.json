@@ -1,0 +1,26 @@
+{
+  "code": "3389",
+  "name": "Avis Rent-A-Car",
+  "tcc": "A",
+  "description": "Car Rental Agencies",
+  "category": "Automobile/Vehicle Rentals",
+  "abPrograms": {
+    "global": [
+      "TE01",
+      "TE02",
+      "TE03",
+      "TE04",
+      "V001",
+      "TP01"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "BR07",
+      "BR10",
+      "CHLG",
+      "COLN",
+      "SPN3",
+      "TT01-TTO"
+    ]
+  }
+}

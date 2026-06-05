@@ -1,0 +1,21 @@
+{
+  "code": "3300",
+  "name": "Azul Brazilian Airlines",
+  "tcc": "X",
+  "description": "Airlines, Air Carriers. Abbreviated airline name: AZUL AIR",
+  "category": "Airlines",
+  "abPrograms": {
+    "global": [
+      "A001",
+      "CF01",
+      "TE01",
+      "TE02",
+      "TE03",
+      "TE04"
+    ],
+    "countrySpecific": [
+      "CHLL",
+      "TT01-TTO"
+    ]
+  }
+}

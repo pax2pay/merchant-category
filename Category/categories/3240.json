@@ -1,0 +1,22 @@
+{
+  "code": "3240",
+  "name": "Bahamasair",
+  "tcc": "X",
+  "description": "Airlines, Air Carriers. Abbreviated airline name: BAHAMASA",
+  "category": "Airlines",
+  "abPrograms": {
+    "global": [
+      "A001",
+      "CF01",
+      "TE01",
+      "TE02",
+      "TE03",
+      "TE04"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "CHLL",
+      "TT01-TTO"
+    ]
+  }
+}
