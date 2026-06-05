@@ -1,22 +1,49 @@
 import { isly } from "isly"
 import { categories } from "./categories"
 import { Code as CategoryCode } from "./Code"
-import { Single as CategorySingle } from "./Single"
 
-export type Category = Category.Single
+export interface Category {
+	readonly code: string // 4 digit code
+	readonly name: string
+	readonly tcc: string
+	readonly description: string
+	readonly category: string
+	readonly abPrograms: {
+		readonly global?: readonly string[]
+		readonly countrySpecific?: readonly string[]
+	}
+}
 
 export namespace Category {
-	export const type: isly.Type<Category> = isly.named("merchant.Category", CategorySingle.type)
+	export const type = isly.object<Category>(
+		{
+			code: isly.string(/^\d{4}$/),
+			name: isly.string(),
+			tcc: isly.string(),
+			description: isly.string(),
+			category: isly.string(),
+			abPrograms: isly.object({
+				global: isly.string().array().optional(),
+				countrySpecific: isly.string().array().optional(),
+			}),
+		},
+		"merchant.Category"
+	)
 	export const is = type.is
 	export const flaw = type.flaw
 
 	export import Code = CategoryCode
-	export import Single = CategorySingle
 
 	export const all = categories as readonly Readonly<Category>[]
 
-	export function load(code: string): Category.Single | undefined {
+	export function load(code: string): Category | undefined {
 		return all.find(category => category.code == code)
+	}
+	export function belongs(category: Category, program: string): Category[] {
+		return category.abPrograms?.global?.some(p => p == program) ||
+			category.abPrograms?.countrySpecific?.some(p => p == program)
+			? [category]
+			: []
 	}
 	// reserved industry blocks; unassigned codes within still belong to the surrounding category
 	const blocks = [
@@ -69,7 +96,7 @@ export namespace Category {
 		}
 		return result
 	}
-	export function logIssues(category: Single) {
+	export function logIssues(category: Category) {
 		if (!Code.is(category.code)) {
 			console.error(`code ${category.code} is not valid mcc on ${category.name}`)
 		}
