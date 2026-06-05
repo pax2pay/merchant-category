@@ -11,7 +11,7 @@ export namespace Program {
 	export const is = type.is
 	export const flaw = type.flaw
 	export function load(name: string): Program | undefined {
-		const categories: Category[] = Category.all.flatMap(c => Category.Single.belongs(c, name))
+		const categories: Category[] = Category.all.flatMap(c => Category.belongs(c, name))
 		return categories.length > 0 ? { name, categories } : undefined
 	}
 }
