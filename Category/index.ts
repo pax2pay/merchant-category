@@ -32,10 +32,11 @@ export namespace Category {
 			ranges = []
 			for (const { code, category } of [...all].sort((left, right) => (left.code < right.code ? -1 : 1))) {
 				const last = ranges[ranges.length - 1]
-				if (last?.category == category)
+				if (last?.category == category) {
 					last.to = code
-				else
+				} else {
 					ranges.push({ from: code, to: code, category })
+				}
 			}
 			for (const range of ranges) {
 				const block = blocks.find(b => b.from <= range.from && range.to <= b.to)
@@ -53,9 +54,11 @@ export namespace Category {
 	 */
 	export function intersect(from: string, to: string): string[] {
 		const result: string[] = []
-		for (const range of getRanges())
-			if (range.from <= to && from <= range.to && !result.includes(range.category))
+		for (const range of getRanges()) {
+			if (range.from <= to && from <= range.to && !result.includes(range.category)) {
 				result.push(range.category)
+			}
+		}
 		return result
 	}
 	export function logIssues(category: Single) {
