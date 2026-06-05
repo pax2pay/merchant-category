@@ -46,15 +46,25 @@ export namespace Category {
 		}
 		return ranges
 	}
+	export interface Intersection {
+		category: string
+		ranges: { from: string; to: string }[]
+	}
 	/**
-	 * Lists the distinct category names whose MCCs intersect the inclusive range [from, to],
-	 * ordered by first code occurrence. `from` and `to` are 4-digit code strings.
+	 * Lists the categories whose MCCs intersect the inclusive range [from, to],
+	 * ordered by first code occurrence, each with the full extent of its intersecting code ranges.
+	 * `from` and `to` are 4-digit code strings.
 	 */
-	export function intersect(from: string, to: string): string[] {
-		const result: string[] = []
+	export function intersect(from: string, to: string): Intersection[] {
+		const result: Intersection[] = []
 		for (const range of getRanges()) {
-			if (range.from <= to && from <= range.to && !result.includes(range.category)) {
-				result.push(range.category)
+			if (range.from <= to && from <= range.to) {
+				const existing = result.find(intersection => intersection.category == range.category)
+				if (existing) {
+					existing.ranges.push({ from: range.from, to: range.to })
+				} else {
+					result.push({ category: range.category, ranges: [{ from: range.from, to: range.to }] })
+				}
 			}
 		}
 		return result
