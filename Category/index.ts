@@ -10,10 +10,8 @@ export namespace Category {
 	export const is = type.is
 	export const flaw = type.flaw
 
-	export type Code = CategoryCode
-	export const Code = CategoryCode
-	export type Single = CategorySingle
-	export const Single = CategorySingle
+	export import Code = CategoryCode
+	export import Single = CategorySingle
 
 	export const all = categories as readonly Readonly<Category>[]
 
@@ -62,6 +60,8 @@ export namespace Category {
 		return result
 	}
 	export function logIssues(category: Single) {
-		Code.is(category.code) || console.error(`code ${category.code} is not valid mcc on ${category.name}`)
+		if (!Code.is(category.code)) {
+			console.error(`code ${category.code} is not valid mcc on ${category.name}`)
+		}
 	}
 }
