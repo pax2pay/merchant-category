@@ -129,6 +129,8 @@ import { default as mcc3159 } from "./3159.json"
 import { default as mcc3161 } from "./3161.json"
 import { default as mcc3164 } from "./3164.json"
 import { default as mcc3167 } from "./3167.json"
+import { default as mcc3168 } from "./3168.json"
+import { default as mcc3169 } from "./3169.json"
 import { default as mcc3171 } from "./3171.json"
 import { default as mcc3172 } from "./3172.json"
 import { default as mcc3174 } from "./3174.json"
@@ -201,6 +203,7 @@ import { default as mcc3300 } from "./3300.json"
 import { default as mcc3301 } from "./3301.json"
 import { default as mcc3302 } from "./3302.json"
 import { default as mcc3303 } from "./3303.json"
+import { default as mcc3304 } from "./3304.json"
 import { default as mcc3308 } from "./3308.json"
 import { default as mcc3351 } from "./3351.json"
 import { default as mcc3352 } from "./3352.json"
@@ -592,6 +595,20 @@ import { default as mcc3836 } from "./3836.json"
 import { default as mcc3837 } from "./3837.json"
 import { default as mcc3838 } from "./3838.json"
 import { default as mcc3839 } from "./3839.json"
+import { default as mcc3840 } from "./3840.json"
+import { default as mcc3841 } from "./3841.json"
+import { default as mcc3842 } from "./3842.json"
+import { default as mcc3843 } from "./3843.json"
+import { default as mcc3844 } from "./3844.json"
+import { default as mcc3845 } from "./3845.json"
+import { default as mcc3846 } from "./3846.json"
+import { default as mcc3847 } from "./3847.json"
+import { default as mcc3848 } from "./3848.json"
+import { default as mcc3849 } from "./3849.json"
+import { default as mcc3850 } from "./3850.json"
+import { default as mcc3851 } from "./3851.json"
+import { default as mcc3852 } from "./3852.json"
+import { default as mcc3853 } from "./3853.json"
 import { default as mcc4011 } from "./4011.json"
 import { default as mcc4111 } from "./4111.json"
 import { default as mcc4112 } from "./4112.json"
@@ -1007,6 +1024,8 @@ export const categories = [
 	mcc3161,
 	mcc3164,
 	mcc3167,
+	mcc3168,
+	mcc3169,
 	mcc3171,
 	mcc3172,
 	mcc3174,
@@ -1079,6 +1098,7 @@ export const categories = [
 	mcc3301,
 	mcc3302,
 	mcc3303,
+	mcc3304,
 	mcc3308,
 	mcc3351,
 	mcc3352,
@@ -1470,6 +1490,20 @@ export const categories = [
 	mcc3837,
 	mcc3838,
 	mcc3839,
+	mcc3840,
+	mcc3841,
+	mcc3842,
+	mcc3843,
+	mcc3844,
+	mcc3845,
+	mcc3846,
+	mcc3847,
+	mcc3848,
+	mcc3849,
+	mcc3850,
+	mcc3851,
+	mcc3852,
+	mcc3853,
 	mcc4011,
 	mcc4111,
 	mcc4112,
