@@ -44,7 +44,7 @@ export namespace Range {
 							.filter(([_, categories]) => categories == "all" || categories.includes(code))
 							.map(([program, _]) => program),
 					},
-			  }
+				}
 			: undefined
 	}
 	export function getAllPrograms(category: Range): { [program: string]: readonly string[] | "all" } {

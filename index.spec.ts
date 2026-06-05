@@ -8,7 +8,7 @@ describe("merchant", () => {
 		let mcc = 1000
 		do {
 			const category = merchant.Category.load(mcc.toString())
-			if (category)
+			if (category) {
 				result.push(
 					[
 						category.code,
@@ -22,6 +22,7 @@ describe("merchant", () => {
 						.join(",")
 						.replace("\\\\n", "\\n")
 				)
+			}
 		} while (mcc++ < 9999)
 		expect(result.join("\n")).toMatchInlineSnapshot(`
 ""code","name","description","category","programs","country-programs"
