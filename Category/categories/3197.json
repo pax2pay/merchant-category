@@ -1,0 +1,22 @@
+{
+  "code": "3197",
+  "name": "Havasu Airlines",
+  "tcc": "X",
+  "description": "Airlines, Air Carriers. Abbreviated airline name: HAVASUAI",
+  "category": "Airlines",
+  "abPrograms": {
+    "global": [
+      "A001",
+      "CF01",
+      "TE01",
+      "TE02",
+      "TE03",
+      "TE04"
+    ],
+    "countrySpecific": [
+      "BEL1",
+      "CHLL",
+      "TT01-TTO"
+    ]
+  }
+}
